@@ -1,4 +1,31 @@
-.test {
-  color: aqua;
-  background-color: bisque;
+.header-test {
+  font-family: Noto Serif;
+  font-style: ExtraLight;
+  font-size: 18px;
+  line-height: 25px;
+  color: #131108;
+}
+
+.block1-test--head {
+  font-family: EB Garamond;
+  font-style: Regular;
+  font-size: 64px;
+  line-height: 85px;
+  color: #161202;
+}
+
+.block1-test--text {
+  font-family: Open Sans;
+  font-style: Light;
+  font-size: 20px;
+  line-height: 27px;
+  color: #1A1919;
+}
+
+.block1-test--text {
+  font-family: Open Sans;
+  font-style: Light;
+  font-size: 20px;
+  line-height: 27px;
+  color: #1A1919;
 }/*# sourceMappingURL=style.css.map */
