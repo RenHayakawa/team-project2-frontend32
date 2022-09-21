@@ -1,4 +1,76 @@
-.test {
-   color: aqua;
-   background-color: bisque;
+//Переменные для цвета
+
+//Переменная цвета для хедера, активная вкладка
+$colorbrowntext_1: #100E07DE;
+
+//Переменная цвета для хедера, неактивная вкладка
+$colorbrowntext_2: #131108;
+
+//Переменная цвета для заголовка 1
+$colorbrowntext_3:#161202;
+
+//Переменная цвета для текста в блоке 1
+$colorbrowntext_4: #1A1919;
+
+//Переменная цвета для фона светло-коричневый
+$colorbrownblock: #F0EEEA;
+
+//Переменная для синего цвета
+$colorblue: #405A69;
+
+
+//Шаблон для шрифта и цвета хедера
+
+%header {
+   font-family: Noto Serif;
+   font-style: ExtraLight;
+   font-size: 18px;
+   line-height: 25px;
+   color: $colorbrowntext_2;
+}
+
+.header-test {
+   @extend %header;
+}
+
+//Шаблон для шрифта и цвета заголовка 1 блока 1
+
+%block1-head{
+   font-family: EB Garamond;
+   font-style: Regular;
+   font-size: 64px;
+   line-height: 85px;
+   color: $colorbrowntext_3;
+}
+
+.block1-test--head {
+   @extend %block1-head;
+}
+
+//Шаблон для шрифта и цвета текста блока 1
+
+%block1-text{
+   font-family: Open Sans;
+   font-style: Light;
+   font-size: 20px;
+   line-height: 27px;
+   color: $colorbrowntext_4;
+}
+
+.block1-test--text {
+   @extend %block1-text;
+}
+
+//Шаблон для кнопки
+
+%block1-text{
+   font-family: Open Sans;
+   font-style: Light;
+   font-size: 20px;
+   line-height: 27px;
+   color: $colorbrowntext_4;
+}
+
+.block1-test--text {
+   @extend %block1-text;
 }
