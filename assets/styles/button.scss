@@ -1,0 +1,32 @@
+.dark-button{
+cursor: pointer;
+border: 0;
+text-align: center;
+width: 270px;
+height: 60px;
+
+	text-decoration: none;/* убираем декорирование */
+	-moz-appearance: button; /* преобразование для Firefox */
+	-webkit-appearance: button; /* преобразование для Chromium */	
+
+background: #405A69;
+border-radius: 15px;
+
+font-family: 'Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 144.52%;
+
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+&:hover{
+    background: #C3AB68;
+}
+
+
+}
