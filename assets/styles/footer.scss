@@ -25,23 +25,23 @@ $mobile-common-text: normal 400 11px/20px 'Noto Serif', serif;
         align-items: center;
     }
 
-    .footer_link {
+    .footer__link {
         display: flex;
         justify-content: space-around;
         width: 70%;
         margin: 30px 0 30px 0;
     }
 
-    .footer_link a {
+    .footer__link a {
         padding: 0 10px 0 10px;
         text-decoration: none;
     }
 
-    .footer_link img {
+    .footer__link img {
         width: 45px;
     }
 
-    .footer_address {
+    .footer__address {
         margin-bottom: 30px;
         font: $mobile-common-text;
         font-size: 13px;
@@ -49,11 +49,11 @@ $mobile-common-text: normal 400 11px/20px 'Noto Serif', serif;
         color: white;
     }
 
-    .footer_address span {
+    .footer__address span {
         text-decoration: underline;
     }
 
-    .footer_copyright {
+    .footer__copyright {
         padding: 15px 0 15px 0;
         font: $mobile-common-text;
         text-align: center;
