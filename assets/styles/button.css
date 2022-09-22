@@ -99,4 +99,17 @@
 }
 .light-button:hover:before {
   width: 100%;
+}
+
+@media (max-width: 480px), (min-width: 768px) and (max-width: 998px) {
+  .button {
+    padding: 10px 10px;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .light-button {
+    padding: 10px 10px;
+    line-height: 20px;
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=button.css.map */
