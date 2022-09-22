@@ -1,32 +1,61 @@
-.dark-button{
-cursor: pointer;
-border: 0;
-text-align: center;
-width: 270px;
-height: 60px;
+$color: #405A69;
 
-	text-decoration: none;/* убираем декорирование */
-	-moz-appearance: button; /* преобразование для Firefox */
-	-webkit-appearance: button; /* преобразование для Chromium */	
+.button {
+    /* block */
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    position: relative;
+    border-radius: 4;
+    overflow: hidden;
+    z-index: 1;
+    /* font decoration */
+    text-align: center;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 144.52%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* animation */
+    transition: all .3s;
 
-background: #405A69;
-border-radius: 15px;
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $color;
+        z-index: -2;
+    }
 
-font-family: 'Garamond';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 144.52%;
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: darken($color, 15%);
+        transition: all .3s;
+        z-index: -1;
+    }
+    &:hover {
+        color: #fff;
 
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-
-color: #FFFFFF;
-&:hover{
-    background: #C3AB68;
+        &:before {
+            width: 100%;
+        }
+    }
 }
 
-
+/* optional reset for presentation */
+* {
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 20px;
 }
+
