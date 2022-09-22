@@ -8,9 +8,8 @@ html {
     box-sizing: inherit;
 }
 
-$background-dark-blue: #E2DED6;
-$mobile-header: normal 400 34px/34px 'Podkova', serif;
-$mobile-common-text: normal 400 15px/25px 'Noto Serif', serif;
+$background-dark-blue: #405A69;
+$mobile-common-text: normal 400 11px/20px 'Noto Serif', serif;
 
 @media screen and (max-width: 767px) {
 
@@ -26,17 +25,11 @@ $mobile-common-text: normal 400 15px/25px 'Noto Serif', serif;
         align-items: center;
     }
 
-    .footer_header {
-        margin: 30px 0 30px 0;
-        font: $mobile-header;
-        text-transform: uppercase;
-    }
-
     .footer_link {
         display: flex;
         justify-content: space-around;
         width: 70%;
-        margin-bottom: 20px;
+        margin: 30px 0 30px 0;
     }
 
     .footer_link a {
@@ -51,7 +44,9 @@ $mobile-common-text: normal 400 15px/25px 'Noto Serif', serif;
     .footer_address {
         margin-bottom: 30px;
         font: $mobile-common-text;
+        font-size: 13px;
         text-align: center;
+        color: white;
     }
 
     .footer_address span {
@@ -60,8 +55,10 @@ $mobile-common-text: normal 400 15px/25px 'Noto Serif', serif;
 
     .footer_copyright {
         padding: 15px 0 15px 0;
+        font: $mobile-common-text;
         text-align: center;
-        border-top: 1px solid #3D596F;
+        border-top: 1.5px solid #27394b;
         background-color: $background-dark-blue;
+        color: white;
     }
 }
