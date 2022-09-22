@@ -1,5 +1,5 @@
 $color: #405A69;
-
+$color1: #F0EEEA;
 .button {
     /* block */
     display: inline-block;
@@ -9,6 +9,7 @@ $color: #405A69;
     overflow: hidden;
     z-index: 1;
     /* font decoration */
+    text-decoration: none;
     text-align: center;
     font-family: 'Garamond';
     font-style: normal;
@@ -53,9 +54,57 @@ $color: #405A69;
 }
 
 /* optional reset for presentation */
-* {
-    font-family: Arial;
+
+.light-button {
+    /* block */
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    position: relative;
+    border-radius: 4;
+    overflow: hidden;
+    z-index: 1;
+    /* font decoration */
+    text-align: center;
+    font-family: 'Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 144.52%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #161202;
     text-decoration: none;
-    font-size: 20px;
+    /* animation */
+    transition: all .3s;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $color1;
+        z-index: -2;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: darken($color1, 15%);
+        transition: all .3s;
+        z-index: -1;
+    }
+    &:hover {
+        color: #fff;
+
+        &:before {
+            width: 100%;
+        }
+    }
 }
 

@@ -7,6 +7,7 @@
   overflow: hidden;
   z-index: 1;
   /* font decoration */
+  text-decoration: none;
   text-align: center;
   font-family: "Garamond";
   font-style: normal;
@@ -48,8 +49,52 @@
 }
 
 /* optional reset for presentation */
-* {
-  font-family: Arial;
+.light-button {
+  /* block */
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  position: relative;
+  border-radius: 4;
+  overflow: hidden;
+  z-index: 1;
+  /* font decoration */
+  text-align: center;
+  font-family: "Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 144.52%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #161202;
   text-decoration: none;
-  font-size: 20px;
+  /* animation */
+  transition: all 0.3s;
+}
+.light-button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F0EEEA;
+  z-index: -2;
+}
+.light-button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #d0cabd;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.light-button:hover {
+  color: #fff;
+}
+.light-button:hover:before {
+  width: 100%;
 }/*# sourceMappingURL=button.css.map */
