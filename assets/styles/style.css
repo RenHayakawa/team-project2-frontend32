@@ -1,31 +1,23 @@
 .header-test {
   font-family: Noto Serif;
-  font-style: ExtraLight;
-  font-size: 18px;
-  line-height: 25px;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 28.6px;
   color: #131108;
 }
 
 .block1-test--head {
-  font-family: EB Garamond;
-  font-style: Regular;
-  font-size: 64px;
-  line-height: 85px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 81.72px;
   color: #161202;
 }
 
 .block1-test--text {
-  font-family: Open Sans;
-  font-style: Light;
-  font-size: 20px;
-  line-height: 27px;
-  color: #1A1919;
-}
-
-.block1-test--text {
-  font-family: Open Sans;
-  font-style: Light;
-  font-size: 20px;
-  line-height: 27px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 29.96px;
   color: #1A1919;
 }/*# sourceMappingURL=style.css.map */
