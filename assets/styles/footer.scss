@@ -8,15 +8,14 @@ html {
     box-sizing: inherit;
 }
 
-$background-dark-blue: #405A69;
-$mobile-common-text: normal 400 11px/20px 'Noto Serif', serif;
-
 @media screen and (max-width: 767px) {
+
+    @import 'style.scss';
 
     .wrapper {
         width: 100vw;
         padding: 0 20px 0 20px;
-        background-color: $background-dark-blue;
+        background-color: $colorblue_1;
     }
 
     .footer {
@@ -43,10 +42,11 @@ $mobile-common-text: normal 400 11px/20px 'Noto Serif', serif;
 
     .footer__address {
         margin-bottom: 30px;
-        font: $mobile-common-text;
+        @extend %block1-text-mob;
         font-size: 13px;
+        line-height: 25px;
         text-align: center;
-        color: white;
+        background-color: transparent;
     }
 
     .footer__address span {
@@ -55,10 +55,9 @@ $mobile-common-text: normal 400 11px/20px 'Noto Serif', serif;
 
     .footer__copyright {
         padding: 15px 0 15px 0;
-        font: $mobile-common-text;
+        @extend %block1-text-mob;
         text-align: center;
         border-top: 1.5px solid #27394b;
-        background-color: $background-dark-blue;
-        color: white;
+        background-color: $colorblue_1;
     }
 }
