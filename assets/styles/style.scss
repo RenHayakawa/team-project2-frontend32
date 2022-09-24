@@ -1,32 +1,27 @@
-
-
-html {
-
-   width: 100%;
+.menu {
    max-width: 100%;
-   overflow-x: hidden;
-}
-
-body {
-   width: 100%;
-   max-width: 100%;
-   overflow-x: hidden;
-}
-
-.header {
-   width: 100%;
-}
-
-
-.menu__list {
    display: flex;
    flex-direction: row;
+   justify-content: space-between;
+   margin-top: 34px;
 
+   &:first-child {
+      margin-left: 129px;
+      .logo-pic {
+         padding-top: 11px;
+      }
+   }
+   &:last-child {
+      margin-right: 10%;
+   }
+}
+.menu__list {
+   max-width: 100%;
    list-style-type: none;
-
-
    .menu__item {
-      padding: 6px 30px;
+      padding: 6px 40px;
+      display: inline;
+      float: left;
 
       .menu__link {
          position: relative;
