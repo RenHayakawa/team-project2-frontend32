@@ -1,4 +1,242 @@
-.test {
-   color: aqua;
-   background-color: bisque;
+//Переменные для цвета
+
+//Переменная цвета для хедера, активная вкладка
+$colorbrowntext_1: #100E07DE;
+
+//Переменная цвета для хедера, неактивная вкладка
+$colorbrowntext_2: #131108;
+
+//Переменная цвета для заголовка 1
+$colorbrowntext_3:#161202;
+
+//Переменная цвета для текста в блоке 1
+$colorbrowntext_4: #1A1919;
+
+//Переменная цвета для фона светло-коричневый 
+$colorbrownblock: #F0EEEA;
+
+//Переменная для синего цвета
+$colorblue_1: #405A69;
+
+//Переменная для голубого цвета
+$colorblue_2: #AFD1D1;
+
+//Переменная для серого цвета
+$colorgrey: #373018;
+
+//Переменная для белого цвета
+$colorwhite: #ffffff;
+
+//Щаблоны для десктопной версии
+//Шаблон для шрифта и цвета хедера
+
+%header{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 21px;
+   line-height: 28.6px;
+   color: $colorbrowntext_2;
+}
+
+.header-test {
+   @extend %header;
+}
+
+//Шаблон для шрифта и цвета заголовка блока 1
+
+%block1-head{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 60px;
+   line-height: 81.72px;
+   color: $colorbrowntext_3;
+}
+
+.block1-test--head {
+   @extend %block1-head;
+}
+
+//Шаблон для шрифта и цвета текста блока 1
+
+%block1-text{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 22px;
+   line-height: 29.96px;
+   color: $colorbrowntext_4;
+}
+
+.block1-test--text {
+   @extend %block1-text;
+}
+
+//Шаблон для шрифта и цвета заголовка блока 2
+
+%block2-head{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 60px;
+   line-height: 81.72px;
+   color: $colorwhite;
+   background-color: $colorblue_1;
+}
+
+//Шаблон для шрифта и цвета текста блока 2
+
+%block2-text{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 22px;
+   line-height: 29.96px;
+   color: $colorwhite;
+   background-color: $colorblue_1;
+}
+
+//Шаблон для кнопки "Запись прием" синего цвета
+
+%button1{
+   font-family: Garamond;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 20.25px;
+   color: $colorwhite;
+   background-color: $colorblue_1;
+}
+
+%footer {
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 21px;
+   line-height: 28.6px;
+   color: $colorwhite;
+   background-color: $colorblue_1;
+}
+
+//Шаблоны для мобильной версии
+//Шаблон для активной кнопки хедера для мобильной версии
+
+%button2{
+   font-family: Garamond;
+   font-style: normal;
+   font-size: 7px;
+   line-height: 7.88px;
+   color: $colorgrey;
+   background-color: $colorblue_2;
+}
+
+//Шаблон для кнопок хедера для мобильной версии
+
+%button3{
+   font-family: Garamond;
+   font-style: normal;
+   font-size: 7px;
+   line-height: 7.88px;
+   color: $colorwhite;
+   background-color: $colorblue_1;
+}
+
+//Шаблон для шрифта и цвета заголовка блока 1 мобильной версии (главная)
+
+%block1-head-mob{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 25px;
+   line-height: 34.05px;
+   color: $colorwhite;
+}
+
+//Шаблон для шрифта и цвета текста блока 1 мобильной версии (главная)
+
+%block1-text-mob{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 11px;
+   line-height: 14.98px;
+   color: $colorwhite;
+   background-color: $colorbrownblock;
+}
+
+//Шаблон для кнопки записи на прием для мобильной версии (главная)
+
+%button4{
+   font-family: Garamond;
+   font-style: normal;
+   font-size: 7px;
+   line-height: 7.88px;
+   color: $colorbrowntext_3;
+   background-color: $colorbrownblock;
+}
+
+//Шаблон для шрифта и цвета заголовка Frame 6, Frame 10, сретификаты и образование мобильной версии
+
+%block2-head-mob{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 25px;
+   line-height: 34.05px;
+   color: $colorwhite;
+   background-color: $colorblue_1;
+}
+
+//Шаблон подзаголовка до/после Frame 10 мобильной версии
+
+%block2-head-mob{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 24.52px;
+   color: $colorbrowntext_3;
+}
+
+//Шаблон для шрифта и цвета текста с фоном сертификаты и образование мобильной версии 
+
+%block3-text-mob{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 11px;
+   line-height: 14.98px;
+   color: $colorwhite;
+   background-color: $colorblue_1;
+}
+
+//Шаблон для шрифта и цвета текста сертификаты и образование мобильной версии 
+
+%block4-text-mob{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 11px;
+   line-height: 14.98px;
+   color: $colorbrowntext_3;
+}
+
+//Шаблон для шрифта и цвета заголовка Frame 8 мобильной версии
+
+%block5-head-mob{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 25px;
+   line-height: 34.05px;
+   color: $colorblue_1;
+}
+
+//Шаблон для шрифта и цвета текста Frame 8 мобильной версии 
+
+%block6-text{
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 11px;
+   line-height: 14.98px;
+   color: $colorbrowntext_3;
+}
+
+
+//Шаблон для футера для мобильной версии
+
+%footer-mob {
+   font-family: Noto Serif;
+   font-style: normal;
+   font-size: 12px;
+   line-height: 16.34px;
+   color: $colorwhite;
+   background-color: $colorblue_1;
 }
