@@ -56,7 +56,7 @@
 .methodology-and-checklists__card__subtitle {
   margin: 0 0 12px;
   font: 700 18px/24px "Eudoxus Sans", sans-serif;
-  color: #161202;
+  color: #181945;
 }
 .methodology-and-checklists__card__text {
   margin: 0 0 36px;
@@ -65,9 +65,10 @@
 }
 .methodology-and-checklists__card__button {
   margin: auto auto 0;
-  background-color: #c5c1c1;
-  color: #161202;
+  background-color: #405a69;
+  color: #ffffff;
   padding: 20px 0;
+  border-radius: 15px;
   max-width: 250px;
   width: 100%;
   text-decoration: none;
@@ -75,7 +76,7 @@
   font: 600 18px/26px "Garamond", sans-serif;
 }
 .methodology-and-checklists__card__button:hover {
-  box-shadow: 0 3px 10px 2px #908989;
+  box-shadow: 0 3px 10px 2px #30444f;
   transition: box-shadow 0.2s ease-out;
 }
 .methodology-and-checklists__wrapper {
