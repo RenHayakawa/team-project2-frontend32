@@ -217,6 +217,10 @@ $colorwhite: #ffffff;
    font-size: 25px;
    line-height: 34.05px;
    color: $colorblue_1;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight: lighter;
+   letter-spacing: 1px;
 }
 
 //Шаблон для шрифта и цвета текста Frame 8 мобильной версии 
@@ -225,7 +229,8 @@ $colorwhite: #ffffff;
    font-family: Noto Serif;
    font-style: normal;
    font-size: 11px;
-   line-height: 14.98px;
+   line-height: 25px;
+   margin-top: 10px;
    color: $colorbrowntext_3;
 }
 

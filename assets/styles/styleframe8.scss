@@ -1,0 +1,37 @@
+@import "style.scss";
+
+.title{
+    @extend %block5-head-mob;
+}
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 65px 200px;
+    grid-template-rows: repeat(4, 70px);
+    justify-content: center;
+    margin-top: 40px;
+    @media screen and (min-width:480px) {
+        &{
+            grid-template-columns: 80px 290px;
+        }
+    }
+    .data{
+        font-family: Noto Serif;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .adress{
+        font-family: Noto Serif;
+        grid-column: 1/3;
+        margin-top: 5px;
+    }
+}
+.map{
+    margin-top: 25px;
+    width: 335px;
+    @media screen and (min-width:480px) {
+        &{
+            width: 480px;
+        }
+    }
+}
