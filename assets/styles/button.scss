@@ -92,4 +92,18 @@ $color1: #F0EEEA;
             width: 100%;
         }
     }
+    
 }
+@media (max-width: 500px) {
+    .button {
+      padding: 10px 10px;
+      line-height: 20px;
+      font-size: 14px;
+    }
+    .light-button {
+      padding: 10px 10px;
+      line-height: 20px;
+      font-size: 14px;
+    }
+}
+
