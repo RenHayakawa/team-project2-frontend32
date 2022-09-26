@@ -10,16 +10,12 @@
   /* font decoration */
   text-decoration: none;
   text-align: center;
-  font-family: "Garamond";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 144.52%;
+  font: normal 400 16px/144.52% "EB Garamond", serif;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
   /* animation */
-  transition: all 0.3s;
+  transition: all 1s;
 }
 .button:after {
   content: "";
@@ -39,7 +35,7 @@
   width: 0%;
   height: 100%;
   background-color: #233139;
-  transition: all 0.3s;
+  transition: all 1s;
   z-index: -1;
 }
 .button:hover {
@@ -61,17 +57,13 @@
   border-radius: 10px;
   /* font decoration */
   text-align: center;
-  font-family: "Garamond";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 144.52%;
+  font: normal 400 16px/144.52% "EB Garamond", serif;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #161202;
   text-decoration: none;
   /* animation */
-  transition: all 0.3s;
+  transition: all 1s;
 }
 .light-button:after {
   content: "";
@@ -91,7 +83,7 @@
   width: 0%;
   height: 100%;
   background-color: #d0cabd;
-  transition: all 0.3s;
+  transition: all 1s;
   z-index: -1;
 }
 .light-button:hover {
@@ -99,17 +91,4 @@
 }
 .light-button:hover:before {
   width: 100%;
-}
-
-@media (max-width: 480px), (min-width: 768px) and (max-width: 998px) {
-  .button {
-    padding: 10px 10px;
-    line-height: 20px;
-    font-size: 14px;
-  }
-  .light-button {
-    padding: 10px 10px;
-    line-height: 20px;
-    font-size: 14px;
-  }
 }/*# sourceMappingURL=button.css.map */

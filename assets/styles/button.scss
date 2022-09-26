@@ -5,7 +5,6 @@ $color1: #F0EEEA;
     display: inline-block;
     padding: 1rem 1.25rem;
     position: relative;
-    
     overflow: hidden;
     z-index: 1;
     /* decoration */
@@ -13,17 +12,12 @@ $color1: #F0EEEA;
     /* font decoration */
     text-decoration: none;
     text-align: center;
-    font-family: 'Garamond';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 144.52%;
+    font: normal 400 16px/144.52% 'EB Garamond', serif;;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
     /* animation */
-    transition: all .3s;
-
+    transition: all 1s;
     &:after {
         content: '';
         position: absolute;
@@ -34,7 +28,6 @@ $color1: #F0EEEA;
         background-color: $color;
         z-index: -2;
     }
-
     &:before {
         content: '';
         position: absolute;
@@ -43,20 +36,17 @@ $color1: #F0EEEA;
         width: 0%;
         height: 100%;
         background-color: darken($color, 15%);
-        transition: all .3s;
+        transition: all 1s;
         z-index: -1;
     }
     &:hover {
         color: #fff;
-
         &:before {
             width: 100%;
         }
     }
 }
-
 /* optional reset for presentation */
-
 .light-button {
     /* block */
     display: inline-block;
@@ -68,18 +58,13 @@ $color1: #F0EEEA;
     border-radius: 10px;
     /* font decoration */
     text-align: center;
-    font-family: 'Garamond';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 144.52%;
+    font:  normal 400 16px/144.52% 'EB Garamond', serif;;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #161202;
     text-decoration: none;
     /* animation */
-    transition: all .3s;
-
+    transition: all 1s;
     &:after {
         content: '';
         position: absolute;
@@ -90,7 +75,6 @@ $color1: #F0EEEA;
         background-color: $color1;
         z-index: -2;
     }
-
     &:before {
         content: '';
         position: absolute;
@@ -99,27 +83,13 @@ $color1: #F0EEEA;
         width: 0%;
         height: 100%;
         background-color: darken($color1, 15%);
-        transition: all .3s;
+        transition: all 1s;
         z-index: -1;
     }
     &:hover {
         color: #fff;
-
         &:before {
             width: 100%;
         }
     }
 }
-@media (max-width: 480px), (min-width: 768px) and (max-width: 998px){
-    .button{
-    padding: 10px 10px;
-    line-height: 20px;
-    font-size: 14px;
-    }
-    .light-button{
-        padding: 10px 10px;
-        line-height: 20px;
-        font-size: 14px;
-        }
-}
-
