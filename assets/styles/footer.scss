@@ -42,7 +42,7 @@ html {
 
     .footer__address {
         margin-bottom: 30px;
-        @extend %block1-text-mob;
+        @extend %footer-mob;
         font-size: 13px;
         line-height: 25px;
         text-align: center;
@@ -55,7 +55,7 @@ html {
 
     .footer__copyright {
         padding: 15px 0 15px 0;
-        @extend %block1-text-mob;
+        @extend %footer-mob;
         text-align: center;
         border-top: 1.5px solid #27394b;
         background-color: $colorblue_1;

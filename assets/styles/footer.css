@@ -33,10 +33,10 @@ html {
   .footer__copyright, .footer__address {
     font-family: Noto Serif;
     font-style: normal;
-    font-size: 11px;
-    line-height: 14.98px;
+    font-size: 12px;
+    line-height: 16.34px;
     color: #ffffff;
-    background-color: #F0EEEA;
+    background-color: #405A69;
   }
   .wrapper {
     width: 100vw;
