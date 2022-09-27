@@ -58,7 +58,6 @@
       left: 0;
       transform: translateY(100%);
       max-height: 0;
-      font-size: 0;
       overflow: hidden;
       transition: .5s all;
    }
@@ -86,12 +85,14 @@
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       @extend %button3;
       text-transform: uppercase;
+      font-size: 18px;
    }
 
    .main__menu-links:hover,
    .main__menu-links:focus {
       @extend %button2;
       text-transform: uppercase;
+      font-size: 18px;
    }
 
    #check-menu:checked~.main__menu {
@@ -101,19 +102,20 @@
    .menu__btn {
       display: block;
       margin: 0 auto;
-      width: 200px;
+      padding-top: 15px;
+      width: 254px;
       height: 40px;
       border-radius: 4px;
-      background-color: $colorblue_1;
-      color: $colorwhite;
-      z-index: 1;
-      overflow: hidden;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      @extend %button1
    }
 
-   .menu__logo {
+   .menu__logo-links {
       display: flex;
       justify-content: center;
-      margin: 16px 0 21px 20px;
+      margin: 16px 18px 21px 20px;
    }
 
    .menu__logo-pic {
