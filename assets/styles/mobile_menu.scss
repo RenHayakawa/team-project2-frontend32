@@ -1,5 +1,7 @@
 @media screen and (max-width: 767px) {
 
+   @import 'style.scss';
+
    .wrapper {
       position: relative;
       height: 45px;
@@ -67,6 +69,7 @@
       align-items: center;
       list-style-type: none;
       text-align: center;
+      margin-bottom: 65px;
       width: 100%;
       padding: 0;
    }
@@ -74,27 +77,49 @@
    .main__menu-links {
       display: block;
       width: 100%;
-      margin: 12px;
-      padding: 5px 0 0 0;
-      width: 154px;
-      height: 23px;
+      margin: 15px;
+      padding: 20px 0 0 0;
+      width: 254px;
+      height: 30px;
       text-decoration: none;
       text-align: center;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      color: $colorwhite;
-      background-color: $colorblue_1;
-      @extend %menulinks
+      @extend %button3;
+      text-transform: uppercase;
    }
 
    .main__menu-links:hover,
    .main__menu-links:focus {
-      background-color: $colorblue_2;
-      color: $colorgrey;
+      @extend %button2;
+      text-transform: uppercase;
    }
 
    #check-menu:checked~.main__menu {
       max-height: 700px;
    }
+
+   .menu__btn {
+      display: block;
+      margin: 0 auto;
+      width: 200px;
+      height: 40px;
+      border-radius: 4px;
+      background-color: $colorblue_1;
+      color: $colorwhite;
+      z-index: 1;
+      overflow: hidden;
+   }
+
+   .menu__logo {
+      display: flex;
+      justify-content: center;
+      margin: 16px 0 21px 20px;
+   }
+
+   .menu__logo-pic {
+      margin: 7px;
+   }
+
 
    #check-menu:checked~.burger__line-first,
    #check-menu:checked~.burger__line-fourth {
