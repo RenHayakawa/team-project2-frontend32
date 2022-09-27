@@ -1,18 +1,25 @@
+.header {
+  position: fixed;
+  background-color: #ffffff;
+  width: 100%;
+}
+
 .menu {
   max-width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 34px;
+  flex-wrap: wrap;
 }
 .menu:first-child {
-  margin-left: 129px;
+  margin-left: 51px;
 }
 .menu:first-child .logo-pic {
   padding-top: 11px;
 }
 .menu:last-child {
-  margin-right: 10%;
+  margin-right: 51px;
 }
 
 .menu__list {
@@ -20,7 +27,7 @@
   list-style-type: none;
 }
 .menu__list .menu__item {
-  padding: 6px 40px;
+  padding: 6px 20px;
   display: inline;
   float: left;
 }
@@ -28,11 +35,7 @@
   position: relative;
   display: block;
   padding: 4px 0;
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 21px;
-  line-height: 29px;
+  font: 300 21px/29px "Noto Serif", lighter;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -53,7 +56,7 @@
 }
 .menu__list .menu__item .menu__link:hover {
   color: rgba(22, 18, 2, 0.87);
-  font-weight: 400;
+  font-weight: normal;
 }
 .menu__list .menu__item .menu__link:hover::after {
   transform: scaleX(1);
@@ -72,5 +75,19 @@
 @media (max-width: 700px) {
   .menu {
     display: none;
+  }
+}
+@media (min-width: 701px) and (max-width: 959px) {
+  .menu:first-child {
+    margin-left: 5px;
+  }
+  .menu:last-child {
+    margin-right: 5px;
+  }
+  .menu__item {
+    padding: 6px 10px;
+  }
+  .menu__list {
+    padding-right: 0px;
   }
 }/*# sourceMappingURL=menu.css.map */
