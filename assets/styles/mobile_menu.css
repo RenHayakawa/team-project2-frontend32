@@ -227,7 +227,7 @@
     display: block;
     width: 100%;
     margin: 15px;
-    padding: 20px 0 0 0;
+    padding-top: 17px;
     width: 254px;
     height: 30px;
     text-decoration: none;
@@ -253,19 +253,21 @@
   .menu__btn {
     display: block;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 18px;
     width: 254px;
     height: 40px;
     border-radius: 4px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
   }
 }
 @media screen and (max-width: 767px) {
   .menu__logo-links {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 24px 18px 21px 20px;
   }
 }
