@@ -1,3 +1,18 @@
+@media screen and (min-width: 768px) {
+
+   #check-menu {
+      display: none;
+   }
+
+   .menu__btn {
+      display: none;
+   }
+
+   .menu__logo-links {
+      display: none;
+   }
+}
+
 @media screen and (max-width: 767px) {
 
    @import 'style.scss';
@@ -6,7 +21,6 @@
       position: relative;
       height: 45px;
       padding: 16px 16px 0 16px;
-      text-align: left;
       color: $colorwhite;
    }
 
