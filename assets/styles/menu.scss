@@ -2,17 +2,18 @@
     max-width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 34px;
- 
+ flex-wrap: wrap;
+ align-content: space-between;
     &:first-child {
-       margin-left: 129px;
+       margin-left: 51px;
        .logo-pic {
           padding-top: 11px;
        }
     }
     &:last-child {
-       margin-right: 10%;
+       margin-right: 51px;
     }
  }
  .menu__list {
@@ -79,4 +80,10 @@
        display: none;
     }
  
+ }
+
+ @media (min-width: $tablet){
+   .menu{
+      justify-content: center;
+   }
  }
