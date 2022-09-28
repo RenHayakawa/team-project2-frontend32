@@ -1,3 +1,125 @@
+.header-test {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 28.6px;
+  color: #131108;
+}
+
+.block1-test--head {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 81.72px;
+  color: #161202;
+  word-break: break-word;
+}
+
+.block1-test--text {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 29.96px;
+  color: #1a1919;
+}
+
+.methodology-and-checklists {
+  background-color: #405a69;
+}
+.methodology-and-checklists__cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 37px;
+  width: 100%;
+}
+.methodology-and-checklists__card {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 400px;
+  width: 100%;
+  padding: 16px 16px 22px;
+  background-color: #ffffff;
+}
+.methodology-and-checklists__card__img {
+  width: 100%;
+  margin-bottom: 18px;
+}
+.methodology-and-checklists__card__title {
+  margin: 0 0 12px;
+  font: 700 12px/16px "Garamond", sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #161202;
+}
+.methodology-and-checklists__card__subtitle {
+  margin: 0 0 12px;
+  font: 700 18px/24px "Eudoxus Sans", sans-serif;
+  color: #181945;
+}
+.methodology-and-checklists__card__text {
+  margin: 0 0 36px;
+  font: 500 16px/22px "Eudoxus Sans", sans-serif;
+  color: #c5c1c1;
+}
+.methodology-and-checklists__card__button {
+  margin: auto auto 0;
+  background-color: #405a69;
+  color: #ffffff;
+  padding: 20px 0;
+  border-radius: 15px;
+  max-width: 250px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  font: 600 18px/26px "Garamond", sans-serif;
+}
+.methodology-and-checklists__card__button:hover {
+  box-shadow: 0 3px 10px 2px #30444f;
+  transition: box-shadow 0.2s ease-out;
+}
+.methodology-and-checklists__wrapper {
+  margin: 0 auto;
+  padding: 72px 20px;
+}
+.methodology-and-checklists__info-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.methodology-and-checklists__title {
+  margin: 0 0 22px;
+  font: 400 28px/36px "Noto Serif", sans-serif;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #ffffff;
+  word-break: break-word;
+}
+.methodology-and-checklists__about, .methodology-and-checklists__about-second {
+  margin: 0 auto 22px;
+  font: 400 14px/18px "Noto Serif", sans-serif;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  .methodology-and-checklists__cards {
+    flex-direction: row;
+    justify-content: center;
+    gap: 37px;
+    width: 100%;
+  }
+  .methodology-and-checklists__card {
+    align-self: stretch;
+  }
+  .methodology-and-checklists__title {
+    font: 400 60px/86px "Noto Serif", sans-serif;
+  }
+  .methodology-and-checklists__about, .methodology-and-checklists__about-second {
+    font: 400 22px/30px "Noto Serif", sans-serif;
+  }
+}
+
 .header {
   position: fixed;
   background-color: #ffffff;
@@ -38,7 +160,7 @@
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  color: rgba(22, 18, 2, 0.87);
+  color: #131108;
   transition: 0.5s;
 }
 .menu__list .menu__item .menu__link::after {
@@ -48,10 +170,13 @@
   left: 0;
   width: 100%;
   height: 3px;
-  background: #405A69;
+  background: #405a69;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.5s;
+}
+.menu__list .menu__item .menu__link:hover {
+  color: rgba(16, 14, 7, 0.8705882353);
 }
 .menu__list .menu__item .menu__link:hover::after {
   transform: scaleX(1);
