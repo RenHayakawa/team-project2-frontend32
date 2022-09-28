@@ -13,23 +13,12 @@
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://stijndv.com">
     <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="header-test">Продукты</div>
-    <div class="block1-test">
-        <p class="block1-test--head">Бушманова Ирина Александровна </p>
-        <p class="block1-test--text">Привет! Меня зовут Ирина.
-            Я стоматолог-терапевт для взрослых и детей.
-            Знакомство со мной - ваш первый шаг на пути к здоровой улыбке.
-            Занимаюсь вашими зубами уже 10 лет и делаю это успешно.
-            Здесь вы можете ознакомиться с моими услугами более подробно
-        </p>
-    </div>
-
-    <!-- Блок с карточками -->
-    <section class="methodology-and-checklists d-md-block">
+    <section class="methodology-and-checklists">
         <div class="methodology-and-checklists__wrapper">
             <div class="methodology-and-checklists__info-content">
                 <h1 class="methodology-and-checklists__title">Методички и чек-листы</h1>
@@ -47,10 +36,17 @@
                 <div class="methodology-and-checklists__card">
                     <img src="./assets/images/cards/technology-img.jpg" alt="Dental Operation"
                         class="methodology-and-checklists__card__img">
-                    <h3
-                        class="methodology-and-checklists__card__subtitle methodology-and-checklists__card__subtitle-main">
-                        Консультация
+                    <h2 class="methodology-and-checklists__card__title">Консультация</h2>
+                    <h3 class="methodology-and-checklists__card__subtitle">
+                        Консультация вам нужна, если:
                     </h3>
+                    <ul class="methodology-and-checklists__card__list">
+                        <li>- Вас беспокоит чувствительность зубов или кровоточивость дёсен</li>
+                        <li>- Вы постоянно лечите зубы и хотите понять почему</li>
+                        <li>- Хотите как можно реже посещать стоматолога</li>
+                        <li>- Хотите спланировать лечение и не знаете с чего начать</li>
+                        <li>- Хотите узнать стороннее мнение по поводу лечения</li>
+                    </ul>
                     <a href="https://wa.me/79632414667" target="_blank"
                         class="methodology-and-checklists__card__button">Связаться со мной</a>
                 </div>
@@ -58,20 +54,19 @@
                 <div class="methodology-and-checklists__card">
                     <img src="./assets/images/cards/smile-img.jpg" alt="Smiling Child"
                         class="methodology-and-checklists__card__img">
-                    <h3
-                        class="methodology-and-checklists__card__subtitle methodology-and-checklists__card__subtitle-main">
-                        Чек-лист
-                    </h3>
+                    <h2 class="methodology-and-checklists__card__title">Чек-лист</h2>
                     <a href="https://wa.me/79632414667" target="_blank"
                         class="methodology-and-checklists__card__button">Связаться со мной</a>
                 </div>
                 <div class="methodology-and-checklists__card">
                     <img src="./assets/images/cards/dental-hygiene-img.jpg" alt="Dental Hygiene"
                         class="methodology-and-checklists__card__img">
-                    <h3
-                        class="methodology-and-checklists__card__subtitle methodology-and-checklists__card__subtitle-main">
-                        Методичка
+                    <h2 class="methodology-and-checklists__card__title">Методичка</h2>
+                    <h3 class="methodology-and-checklists__card__subtitle">
+                        О методичке
                     </h3>
+                    <p class="methodology-and-checklists__card__text">Поможет разобраться чем и как чистить, чтобы не
+                        навредить, чтобы в арсенале были те средства, которые необходимы именно вам </p>
                     <a href="https://wa.me/79632414667" target="_blank"
                         class="methodology-and-checklists__card__button">Связаться со мной</a>
                 </div>
@@ -79,7 +74,31 @@
             </div>
         </div>
     </section>
-
+    <div class="overflow-hidden">
+        <div class="wrapper">
+            <footer class="footer">
+                <div class="footer__link">
+                    <a class="footer__link_instagram" href="https://www.instagram.com/irinn_sanna/">
+                        <img src="./assets/images/instagram-icon.svg" alt="Instagram icon">
+                    </a>
+                    <a class="footer__link_telegram" href="https://t.me/irinnsanna">
+                        <img src="./assets/images/telegram-icon.svg" alt="Telegram icon">
+                    </a>
+                    <a class="footer__link_whatsapp"
+                        href="https://api.whatsapp.com/send/?phone=79632414667&text&type=phone_number&app_absent=0">
+                        <img src="./assets/images/whatsapp-icon.svg" alt="WhatsApp icon">
+                    </a>
+                    <a class="footer__link_email" href="mailto:irinnsannakt@gmail.com">
+                        <img src="./assets/images/email-icon.svg" alt="Email icon">
+                    </a>
+                </div>
+                <div class="footer__address"><span>Очный приём:</span> г.Санкт-Петербург, улица Большая Подьяческая, д.
+                    18
+                </div>
+            </footer>
+        </div>
+        <div class="footer__copyright">&copy; Бушманова Ирина. All rights reserved</div>
+    </div>
 </body>
 
 </html>
