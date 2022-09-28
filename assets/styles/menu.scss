@@ -1,6 +1,7 @@
 //Переменная для белого цвета
 $white: #ffffff;
 
+
 .header {
    position: fixed;
    background-color: $white ;
@@ -33,14 +34,14 @@ $white: #ffffff;
    list-style-type: none;
 
    .menu__item {
-      padding: 6px 20px;
+      padding: 8px 20px;
       display: inline;
       float: left;
 
       .menu__link {
          position: relative;
          display: block;
-         padding: 4px 0;
+        
 
          font: 300 21px/29px 'Noto Serif', lighter;
 
@@ -63,10 +64,7 @@ $white: #ffffff;
             transition: transform 0.5s;
          }
 
-         &:hover {
-            color: rgba(22, 18, 2, 0.87);
-            font-weight: normal;
-         }
+      
 
          &:hover::after {
             transform: scaleX(1);

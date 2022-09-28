@@ -55,7 +55,7 @@
   transition: transform 0.5s;
 }
 .menu__list .menu__item .menu__link:hover {
-  color: rgba(22, 18, 2, 0.87);
+  color: rgba(169, 158, 111, 0.87);
   font-weight: normal;
 }
 .menu__list .menu__item .menu__link:hover::after {
