@@ -23,6 +23,23 @@
   color: #1a1919;
 }
 
+.home__title {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 34.05px;
+  color: #ffffff;
+}
+
+.home__about {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 14.98px;
+  color: #ffffff;
+  background-color: #f0eeea;
+}
+
 .methodology-and-checklists {
   background-color: #405a69;
 }
@@ -118,4 +135,55 @@
   .methodology-and-checklists__about, .methodology-and-checklists__about-second {
     font: 400 22px/30px "Noto Serif", sans-serif;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+.home {
+  position: relative;
+  min-height: 395px;
+}
+
+.home__wraper {
+  margin: 0 auto;
+}
+
+.home__content {
+  min-width: 302px;
+}
+
+.home__title {
+  margin-bottom: 114px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.88;
+}
+
+.home__about {
+  background-color: #f0eeea;
+  margin-bottom: 54px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  opacity: 0.7;
+}
+
+.home__button__container {
+  text-align: center;
+}
+
+.home-bg__img {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f0eeea;
+}
+
+.home-bg__img img {
+  max-width: 100%;
+  max-height: 150%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(70%);
+}/*# sourceMappingURL=home.css.map */
