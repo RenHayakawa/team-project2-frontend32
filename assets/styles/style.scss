@@ -34,7 +34,7 @@ $colorgrey: #373018;
 $colorwhite: #ffffff;
 
 //Переменная для темно=синего цвета
-$blue-dark:#181945;
+$blue-dark: #181945;
 
 //Щаблоны для десктопной версии
 $desktop: 1280px;
@@ -131,34 +131,34 @@ $tablet: 768px;
 //Шаблон для активной кнопки хедера (главная) для мобильной версии
 
 %button2 {
-   font-family: Noto serif;
-   font-style: normal;
-   font-size: 12px;
-   line-height: 16.34px;
-   color: $colorgrey;
-   background-color: $colorblue_2;
+    font-family: Noto serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16.34px;
+    color: $colorgrey;
+    background-color: $colorblue_2;
 }
 
 //Шаблон для кнопок хедера для мобильной версии
 
 %button3 {
-   font-family: Noto Serif;
-   font-style: normal;
-   font-size: 12px;
-   line-height: 16.34px;
-   color: $colorwhite;
-   background-color: $colorblue_1;
+    font-family: Noto Serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16.34px;
+    color: $colorwhite;
+    background-color: $colorblue_1;
 }
 
 //Шаблон для кнопки "Запись прием" синего цвета в хедере мобильной версии
 
 %button5 {
-   font-family: Garamond;
-   font-style: normal;
-   font-size: 7px;
-   line-height: 7.88px;
-   color: $colorwhite;
-   background-color: $colorblue_1;
+    font-family: Garamond;
+    font-style: normal;
+    font-size: 7px;
+    line-height: 7.88px;
+    color: $colorwhite;
+    background-color: $colorblue_1;
 }
 
 //Шаблон для шрифта и цвета заголовка блока 1 мобильной версии (главная)
@@ -304,12 +304,26 @@ $tablet: 768px;
             margin: 0 0 12px;
             font: 700 18px/24px "Eudoxus Sans", sans-serif;
             color: $blue-dark;
+            &-main {
+                margin-bottom: 15px;
+            }
         }
 
         &__text {
             margin: 0 0 36px;
             font: 500 16px/22px "Eudoxus Sans", sans-serif;
             color: $grey;
+        }
+
+        &__list {
+            font: 500 16px/22px "Eudoxus Sans", sans-serif;
+            list-style-type: none;
+            padding: 0;
+            margin: 0 0 10px;
+            color: $grey;
+            & > li {
+                margin-bottom: 4px;
+            }
         }
 
         &__button {
@@ -326,7 +340,7 @@ $tablet: 768px;
 
             &:hover {
                 box-shadow: 0 3px 10px 2px #30444f;
-                transition: box-shadow .2s ease-out;
+                transition: box-shadow 0.2s ease-out;
             }
         }
     }
@@ -351,7 +365,8 @@ $tablet: 768px;
         word-break: break-word;
     }
 
-    &__about, &__about-second {
+    &__about,
+    &__about-second {
         margin: 0 auto 22px;
         font: 400 14px/18px "Noto Serif", sans-serif;
         letter-spacing: 0.04em;
@@ -374,8 +389,19 @@ $tablet: 768px;
             font: 400 60px/86px "Noto Serif", sans-serif;
         }
 
-        &__about, &__about-second  {
+        &__about,
+        &__about-second {
             font: 400 22px/30px "Noto Serif", sans-serif;
         }
     }
+
+    @media (max-width: $tablet) {
+        & .d-md-block {
+            display: none;
+        }
+    }
+}
+
+.overflow-hidden {
+    overflow-x: hidden;
 }
