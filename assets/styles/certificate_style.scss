@@ -18,7 +18,7 @@
       "vert li"
       "hor hor"
       "dip dip";
-    grid-gap: 1px;
+    grid-gap: 1%;
   }
   
   .certificates-and-education__carousel__vertical {
@@ -47,7 +47,7 @@
 
   .certificates-and-education__list__ul {
     margin: 5% 2%;
-    list-style-image: url("/assets/images/certificates/list-icon.png");
+    list-style-image: url("../../assets/images/certificates/list-icon.png");
     list-style-position: inside;
     text-align: center;
    
