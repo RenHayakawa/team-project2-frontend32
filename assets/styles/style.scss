@@ -128,56 +128,19 @@ $tablet: 768px;
 }
 
 //Шаблоны для мобильной версии
-
-//Шаблон для активной кнопки хедера для мобильной версии
-
-%button2 {
-    font-family: Garamond;
-    font-style: normal;
-    font-size: 7px;
-    line-height: 7.88px;
-    color: $colorgrey;
-    background-color: $colorblue_2;
-
 //Шаблон для активной кнопки хедера (главная) для мобильной версии
 
 %button2 {
-<<<<<<< HEAD
-   font-family: Noto serif;
-   font-style: normal;
-   font-size: 12px;
-   line-height: 16.34px;
-   color: $colorgrey;
-   background-color: $colorblue_2;
-
-=======
     font-family: Noto serif;
     font-style: normal;
     font-size: 12px;
     line-height: 16.34px;
     color: $colorgrey;
     background-color: $colorblue_2;
->>>>>>> bdb2d4ab3431bb60319456782842e46d2950d74d
 }
 
 //Шаблон для кнопок хедера для мобильной версии
 
-<<<<<<< HEAD
-
-    font-family: Garamond;
-    font-style: normal;
-    font-size: 7px;
-    line-height: 7.88px;
-    color: $colorwhite;
-    background-color: $colorblue_1;
-
-   font-family: Noto Serif;
-   font-style: normal;
-   font-size: 12px;
-   line-height: 16.34px;
-   color: $colorwhite;
-   background-color: $colorblue_1;
-=======
 %button3 {
     font-family: Noto Serif;
     font-style: normal;
@@ -185,28 +148,17 @@ $tablet: 768px;
     line-height: 16.34px;
     color: $colorwhite;
     background-color: $colorblue_1;
->>>>>>> bdb2d4ab3431bb60319456782842e46d2950d74d
 }
 
 //Шаблон для кнопки "Запись прием" синего цвета в хедере мобильной версии
 
 %button5 {
-<<<<<<< HEAD
-   font-family: Garamond;
-   font-style: normal;
-   font-size: 7px;
-   line-height: 7.88px;
-   color: $colorwhite;
-   background-color: $colorblue_1;
-
-=======
     font-family: Garamond;
     font-style: normal;
     font-size: 7px;
     line-height: 7.88px;
     color: $colorwhite;
     background-color: $colorblue_1;
->>>>>>> bdb2d4ab3431bb60319456782842e46d2950d74d
 }
 
 //Шаблон для шрифта и цвета заголовка блока 1 мобильной версии (главная)
@@ -450,10 +402,6 @@ $tablet: 768px;
     }
 }
 
-<<<<<<< HEAD
-
-=======
 .overflow-hidden {
     overflow-x: hidden;
 }
->>>>>>> bdb2d4ab3431bb60319456782842e46d2950d74d
