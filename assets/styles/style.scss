@@ -30,7 +30,7 @@ $colorwhite: #ffffff;
 //Щаблоны для десктопной версии
 //Шаблон для шрифта и цвета хедера
 
-%header{
+%header {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 21px;
@@ -44,7 +44,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для шрифта и цвета заголовка блока 1
 
-%block1-head{
+%block1-head {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 60px;
@@ -58,7 +58,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для шрифта и цвета текста блока 1
 
-%block1-text{
+%block1-text {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 22px;
@@ -72,7 +72,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для шрифта и цвета заголовка блока 2
 
-%block2-head{
+%block2-head {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 60px;
@@ -83,7 +83,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для шрифта и цвета текста блока 2
 
-%block2-text{
+%block2-text {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 22px;
@@ -94,7 +94,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для кнопки "Запись прием" синего цвета
 
-%button1{
+%button1 {
    font-family: Garamond;
    font-style: normal;
    font-size: 18px;
@@ -115,7 +115,7 @@ $colorwhite: #ffffff;
 //Шаблоны для мобильной версии
 //Шаблон для активной кнопки хедера для мобильной версии
 
-%button2{
+%button2 {
    font-family: Garamond;
    font-style: normal;
    font-size: 7px;
@@ -126,7 +126,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для кнопок хедера для мобильной версии
 
-%button3{
+%button3 {
    font-family: Garamond;
    font-style: normal;
    font-size: 7px;
@@ -137,7 +137,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для шрифта и цвета заголовка блока 1 мобильной версии (главная)
 
-%block1-head-mob{
+%block1-head-mob {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 25px;
@@ -147,7 +147,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для шрифта и цвета текста блока 1 мобильной версии (главная)
 
-%block1-text-mob{
+%block1-text-mob {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 11px;
@@ -158,7 +158,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для кнопки записи на прием для мобильной версии (главная)
 
-%button4{
+%button4 {
    font-family: Garamond;
    font-style: normal;
    font-size: 7px;
@@ -169,7 +169,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для шрифта и цвета заголовка Frame 6, Frame 10, сретификаты и образование мобильной версии
 
-%block2-head-mob{
+%block2-head-mob {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 25px;
@@ -180,7 +180,7 @@ $colorwhite: #ffffff;
 
 //Шаблон подзаголовка до/после Frame 10 мобильной версии
 
-%block2-head-mob{
+%block2-head-mob {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 18px;
@@ -190,7 +190,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для шрифта и цвета текста с фоном сертификаты и образование мобильной версии 
 
-%block3-text-mob{
+%block3-text-mob {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 11px;
@@ -201,7 +201,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для шрифта и цвета текста сертификаты и образование мобильной версии 
 
-%block4-text-mob{
+%block4-text-mob {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 11px;
@@ -211,7 +211,7 @@ $colorwhite: #ffffff;
 
 //Шаблон для шрифта и цвета заголовка Frame 8 мобильной версии
 
-%block5-head-mob{
+%block5-head-mob {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 25px;
@@ -221,11 +221,12 @@ $colorwhite: #ffffff;
    text-align: center;
    font-weight: lighter;
    letter-spacing: 1px;
+   margin-left: 24px;
 }
 
 //Шаблон для шрифта и цвета текста Frame 8 мобильной версии 
 
-%block6-text{
+%block6-text {
    font-family: Noto Serif;
    font-style: normal;
    font-size: 11px;

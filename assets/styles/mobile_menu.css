@@ -23,14 +23,13 @@
     font-size: 60px;
     line-height: 81.72px;
     color: #161202;
-    word-break: break-word;
   }
   .block1-test--text {
     font-family: Noto Serif;
     font-style: normal;
     font-size: 22px;
     line-height: 29.96px;
-    color: #1a1919;
+    color: #1A1919;
   }
   .menu__btn {
     font-family: Garamond;
@@ -38,136 +37,34 @@
     font-size: 18px;
     line-height: 20.25px;
     color: #ffffff;
-    background-color: #405a69;
+    background-color: #405A69;
   }
   .main__menu-links:hover,
 .main__menu-links:focus {
-    font-family: Noto serif;
+    font-family: Garamond;
     font-style: normal;
-    font-size: 12px;
-    line-height: 16.34px;
+    font-size: 7px;
+    line-height: 7.88px;
     color: #373018;
-    background-color: #afd1d1;
+    background-color: #AFD1D1;
   }
   .main__menu-links {
-    font-family: Noto Serif;
+    font-family: Garamond;
     font-style: normal;
-    font-size: 12px;
-    line-height: 16.34px;
+    font-size: 7px;
+    line-height: 7.88px;
     color: #ffffff;
-    background-color: #405a69;
+    background-color: #405A69;
   }
-  .methodology-and-checklists {
-    background-color: #405a69;
-  }
-  .methodology-and-checklists__cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 37px;
-    width: 100%;
-  }
-  .methodology-and-checklists__card {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    max-width: 400px;
-    width: 100%;
-    padding: 16px 16px 22px;
-    background-color: #ffffff;
-  }
-  .methodology-and-checklists__card__img {
-    width: 100%;
-    margin-bottom: 18px;
-  }
-  .methodology-and-checklists__card__title {
-    margin: 0 0 12px;
-    font: 700 12px/16px "Garamond", sans-serif;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #161202;
-  }
-  .methodology-and-checklists__card__subtitle {
-    margin: 0 0 12px;
-    font: 700 18px/24px "Eudoxus Sans", sans-serif;
-    color: #181945;
-  }
-  .methodology-and-checklists__card__text {
-    margin: 0 0 36px;
-    font: 500 16px/22px "Eudoxus Sans", sans-serif;
-    color: #c5c1c1;
-  }
-  .methodology-and-checklists__card__button {
-    margin: auto auto 0;
-    background-color: #405a69;
-    color: #ffffff;
-    padding: 20px 0;
-    border-radius: 15px;
-    max-width: 250px;
-    width: 100%;
-    text-decoration: none;
-    text-align: center;
-    font: 600 18px/26px "Garamond", sans-serif;
-  }
-  .methodology-and-checklists__card__button:hover {
-    box-shadow: 0 3px 10px 2px #30444f;
-    transition: box-shadow 0.2s ease-out;
-  }
-  .methodology-and-checklists__wrapper {
-    margin: 0 auto;
-    padding: 72px 20px;
-  }
-  .methodology-and-checklists__info-content {
-    max-width: 1000px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .methodology-and-checklists__title {
-    margin: 0 0 22px;
-    font: 400 28px/36px "Noto Serif", sans-serif;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    color: #ffffff;
-    word-break: break-word;
-  }
-  .methodology-and-checklists__about, .methodology-and-checklists__about-second {
-    margin: 0 auto 22px;
-    font: 400 14px/18px "Noto Serif", sans-serif;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-  }
-}
-@media screen and (max-width: 767px) and (min-width: 768px) {
-  .methodology-and-checklists__cards {
-    flex-direction: row;
-    justify-content: center;
-    gap: 37px;
-    width: 100%;
-  }
-  .methodology-and-checklists__card {
-    align-self: stretch;
-  }
-  .methodology-and-checklists__title {
-    font: 400 60px/86px "Noto Serif", sans-serif;
-  }
-  .methodology-and-checklists__about, .methodology-and-checklists__about-second {
-    font: 400 22px/30px "Noto Serif", sans-serif;
-  }
-}
-@media screen and (max-width: 767px) {
   .wrapper {
     position: relative;
     height: 45px;
     padding: 16px 16px 0 16px;
     color: #ffffff;
   }
-}
-@media screen and (max-width: 767px) {
   #check-menu {
     display: none;
   }
-}
-@media screen and (max-width: 767px) {
   label {
     display: block;
     position: absolute;
@@ -178,39 +75,29 @@
     cursor: pointer;
     z-index: 2;
   }
-}
-@media screen and (max-width: 767px) {
   .menu__logo {
     margin: 16px 0 0 16px;
   }
-}
-@media screen and (max-width: 767px) {
   .burger__line {
     position: absolute;
     top: 16px;
     right: 16px;
     width: 24px;
     height: 2px;
-    background-color: #405a69;
+    background-color: #405A69;
     transition: 0.2s all;
   }
-}
-@media screen and (max-width: 767px) {
   .burger__line-second,
 .burger__line-third {
     top: 25px;
   }
-}
-@media screen and (max-width: 767px) {
   .burger__line-fourth {
     top: 34px;
   }
-}
-@media screen and (max-width: 767px) {
   .main__menu {
     display: block;
     position: absolute;
-    background-color: #f0eeea;
+    background-color: #F0EEEA;
     width: 100%;
     bottom: 0;
     left: 0;
@@ -219,8 +106,6 @@
     overflow: hidden;
     transition: 0.5s all;
   }
-}
-@media screen and (max-width: 767px) {
   .main__menu-list {
     display: flex;
     flex-direction: column;
@@ -231,8 +116,6 @@
     width: 100%;
     padding: 0;
   }
-}
-@media screen and (max-width: 767px) {
   .main__menu-links {
     display: block;
     width: 100%;
@@ -246,20 +129,14 @@
     text-transform: uppercase;
     font-size: 18px;
   }
-}
-@media screen and (max-width: 767px) {
   .main__menu-links:hover,
 .main__menu-links:focus {
     text-transform: uppercase;
     font-size: 18px;
   }
-}
-@media screen and (max-width: 767px) {
   #check-menu:checked ~ .main__menu {
     max-height: 700px;
   }
-}
-@media screen and (max-width: 767px) {
   .menu__btn {
     display: block;
     margin: 0 auto;
@@ -272,32 +149,22 @@
     text-transform: uppercase;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
   }
-}
-@media screen and (max-width: 767px) {
   .menu__logo-links {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 24px 18px 21px 20px;
   }
-}
-@media screen and (max-width: 767px) {
   .menu__logo-pic {
     margin: 7px;
   }
-}
-@media screen and (max-width: 767px) {
   #check-menu:checked ~ .burger__line-first,
 #check-menu:checked ~ .burger__line-fourth {
     display: none;
   }
-}
-@media screen and (max-width: 767px) {
   #check-menu:checked ~ .burger__line-second {
     transform: rotate(45deg);
   }
-}
-@media screen and (max-width: 767px) {
   #check-menu:checked ~ .burger__line-third {
     transform: rotate(-45deg);
   }
