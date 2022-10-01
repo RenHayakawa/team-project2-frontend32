@@ -5,28 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/normalize.css" />
-    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://stijndv.com">
     <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="header-test">Продукты</div>
-    <div class="block1-test">
-        <p class="block1-test--head">Бушманова Ирина Александровна </p>
-        <p class="block1-test--text">Привет! Меня зовут Ирина.
-            Я стоматолог-терапевт для взрослых и детей.
-            Знакомство со мной - ваш первый шаг на пути к здоровой улыбке.
-            Занимаюсь вашими зубами уже 10 лет и делаю это успешно.
-            Здесь вы можете ознакомиться с моими услугами более подробно
-        </p>
-    </div>
+    <!--Блок с заголовком и фото-->
+    <section class="about">
+        <div class="about__wrapper">
+            <h1 class="about__title">Бушманова Ирина Александровна</h1>
+            <div class="about__text">
+                <p class="about__text_part1">Привет! Я практикующий стоматолог уже 12 лет.
+                </p>
+                <p class="about__text_part2">Моя специализация: лечение зубов (кариесы и его осложнения),
+                    профессиональная гигиена и отбеливание. Моя задача не только вылечить, но и привить культуру заботы
+                    о своих зубах. Этим я занимаюсь на очном приёме и онлайн консультациях.
+                </p>
+                <p class="about__text_part3">
+                    На сайте можно ознакомиться со всеми регалиями, работами и полным списком услуг.
+                    Если не удалось найти ответ на свой вопрос, смело пишите по указанным контактам.
+                </p>
+            </div>
+            <a class="about__button"
+                href="https://api.whatsapp.com/send/?phone=79632414667&text&type=phone_number&app_absent=0">Записаться
+                на приём</a>
+        </div>
+        <div class="about__photo_desktop">
+            <img src="./assets/images/Irina/IMG_5475.JPG" alt="Irina's photo">
+        </div>
+    </section>
 
     <!-- Блок с карточками -->
     <section class="methodology-and-checklists d-md-block">
