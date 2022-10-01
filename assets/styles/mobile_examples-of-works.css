@@ -23,6 +23,23 @@
   color: #1a1919;
 }
 
+.title {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 34.05px;
+  color: #ffffff;
+  background-color: #405a69;
+}
+
+.subtitle {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 5px;
+  line-height: 24.52px;
+  color: #161202;
+}
+
 .methodology-and-checklists {
   background-color: #405a69;
 }
@@ -58,10 +75,23 @@
   font: 700 18px/24px "Eudoxus Sans", sans-serif;
   color: #181945;
 }
+.methodology-and-checklists__card__subtitle-main {
+  margin-bottom: 15px;
+}
 .methodology-and-checklists__card__text {
   margin: 0 0 36px;
   font: 500 16px/22px "Eudoxus Sans", sans-serif;
   color: #c5c1c1;
+}
+.methodology-and-checklists__card__list {
+  font: 500 16px/22px "Eudoxus Sans", sans-serif;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 10px;
+  color: #c5c1c1;
+}
+.methodology-and-checklists__card__list > li {
+  margin-bottom: 4px;
 }
 .methodology-and-checklists__card__button {
   margin: auto auto 0;
@@ -119,14 +149,54 @@
     font: 400 22px/30px "Noto Serif", sans-serif;
   }
 }
+@media (max-width: 768px) {
+  .methodology-and-checklists .d-md-block {
+    display: none;
+  }
+}
+
+.overflow-hidden {
+  overflow-x: hidden;
+}
 
 .wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding: 20px;
+  align-items: center;
   background-color: #405a69;
+  padding-bottom: 30px;
+}
+
+.title {
+  width: 100vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.subtitle {
+  width: 100vw;
+  margin: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #ffffff;
 }
 
 .examples {
-  width: 60vw;
+  width: 80vw;
+}
+
+.examples__text-slide {
+  font: 400 20px/24px "Noto Serif", sans-serif;
+}
+
+.examples__img-slide-4_direction {
+  transform: rotate(180deg);
+}
+
+.examples__img-slide-5_direction {
+  transform: rotate(-90deg);
 }/*# sourceMappingURL=mobile_examples-of-works.css.map */
