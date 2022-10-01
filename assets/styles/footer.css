@@ -77,10 +77,23 @@ html {
   font: 700 18px/24px "Eudoxus Sans", sans-serif;
   color: #181945;
 }
+.methodology-and-checklists__card__subtitle-main {
+  margin-bottom: 15px;
+}
 .methodology-and-checklists__card__text {
   margin: 0 0 36px;
   font: 500 16px/22px "Eudoxus Sans", sans-serif;
   color: #c5c1c1;
+}
+.methodology-and-checklists__card__list {
+  font: 500 16px/22px "Eudoxus Sans", sans-serif;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 10px;
+  color: #c5c1c1;
+}
+.methodology-and-checklists__card__list > li {
+  margin-bottom: 4px;
 }
 .methodology-and-checklists__card__button {
   margin: auto auto 0;
@@ -136,6 +149,11 @@ html {
   }
   .methodology-and-checklists__about, .methodology-and-checklists__about-second {
     font: 400 22px/30px "Noto Serif", sans-serif;
+  }
+}
+@media (max-width: 768px) {
+  .methodology-and-checklists .d-md-block {
+    display: none;
   }
 }
 
@@ -201,4 +219,4 @@ html {
   .footer__copyright {
     font-size: 13px;
   }
-}/*# sourceMappingURL=footer.css.map */
+}
