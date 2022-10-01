@@ -168,35 +168,45 @@
   padding-bottom: 30px;
 }
 
-.title {
+.title,
+.subtitle {
   width: 100vw;
   text-align: center;
   text-transform: uppercase;
-  font-size: 20px;
   color: #ffffff;
 }
 
+.title {
+  font-size: 20px;
+}
+
 .subtitle {
-  width: 100vw;
   margin: 20px;
-  text-align: center;
-  text-transform: uppercase;
   font-size: 10px;
-  color: #ffffff;
 }
 
 .examples {
   width: 80vw;
 }
-
 .examples__text-slide {
   font: 400 20px/24px "Noto Serif", sans-serif;
 }
-
 .examples__img-slide-4_direction {
   transform: rotate(180deg);
 }
-
 .examples__img-slide-5_direction {
   transform: rotate(-90deg);
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 60px;
+  }
+  .subtitle {
+    font-size: 25px;
+  }
+  .examples__text-slide {
+    font-size: 50px;
+    line-height: 50px;
+  }
 }/*# sourceMappingURL=mobile_examples-of-works.css.map */
