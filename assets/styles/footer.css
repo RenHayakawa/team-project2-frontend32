@@ -157,6 +157,10 @@ html {
   }
 }
 
+.overflow-hidden {
+  overflow-x: hidden;
+}
+
 .wrapper {
   width: 100vw;
   padding: 0 20px 0 20px;
@@ -219,4 +223,4 @@ html {
   .footer__copyright {
     font-size: 13px;
   }
-}
+}/*# sourceMappingURL=footer.css.map */
