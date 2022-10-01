@@ -1,0 +1,12 @@
+@import "style.scss";
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: $colorblue_1;
+}
+
+.examples {
+    width: 60vw;
+}
