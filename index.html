@@ -5,11 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/normalize.css" />
-    <link rel="stylesheet" href="./assets/styles/style.css" />
-
-    <link rel="stylesheet" href="./assets/styles/button.css" />
-    <link rel="stylesheet" href="./assets/styles/menu.css" />
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
@@ -17,6 +13,10 @@
     <link rel="preconnect" href="https://stijndv.com">
     <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css">
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/menu.css">
+    <link rel="stylesheet" href="./assets/styles/mobile_menu.css">
+    <link rel="stylesheet" href="./assets/styles/button.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
     <title>Document</title>
 </head>
 
@@ -43,8 +43,6 @@
                 <li class="menu__item">
                     <a class="menu__link" href="#">Контакты</a>
                 </li>
-
-
             </ul>
         </nav>
 
@@ -66,9 +64,16 @@
                     Если не удалось найти ответ на свой вопрос, смело пишите по указанным контактам.
                 </p>
             </div>
-            <a class="about__button"
-                href="https://api.whatsapp.com/send/?phone=79632414667&text&type=phone_number&app_absent=0">Записаться
-                на приём</a>
+            <div class="about__wrapper_button">
+                <a class="button"
+                    href="https://api.whatsapp.com/send/?phone=79632414667&text&type=phone_number&app_absent=0">Записаться
+                    на приём</a>
+            </div>
+            <div class="about__wrapper_button-light">
+                <a class="light-button"
+                    href="https://api.whatsapp.com/send/?phone=79632414667&text&type=phone_number&app_absent=0">Записаться
+                    на приём</a>
+            </div>
         </div>
         <div class="about__photo_desktop">
             <img src="./assets/images/Irina/IMG_5475.JPG" alt="Irina's photo">
@@ -122,7 +127,6 @@
                     <a href="https://wa.me/79632414667" target="_blank"
                         class="methodology-and-checklists__card__button">Связаться со мной</a>
                 </div>
-
             </div>
         </div>
     </section>

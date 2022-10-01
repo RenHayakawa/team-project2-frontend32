@@ -272,7 +272,7 @@ $tablet: 768px;
 .about {
     display: flex;
     justify-content: space-between;
-    padding: 72px 100px;
+    padding: 130px 100px 72px 100px;
     background-color: $colorbrownblock;
 
     &__wrapper {
@@ -297,15 +297,13 @@ $tablet: 768px;
     }
 }
 
-.about__button {
+.about__wrapper_button {
     display: flex;
-    padding: 18px 9px;
-    max-width: fit-content;
-    @extend %button1;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius: 15px;
-    background-color: $colorblue_1;
+    justify-content: flex-start;
+}
+
+.about__wrapper_button-light {
+    display: none;
 }
 
 .about__photo_desktop {
@@ -335,8 +333,8 @@ $tablet: 768px;
         text-align: center;
     }
 
-    .about__button {
-        margin: auto;
+    .about__wrapper_button {
+        justify-content: center;
         margin-bottom: 40px;
     }
 }
@@ -348,9 +346,9 @@ $tablet: 768px;
     .about {
         flex-direction: column;
         align-items: center;
-        justify-content: stretch;
-        padding: 20px 0;
-        height: 500px;
+        justify-content: space-around;
+        padding: 0 0 20px 0;
+        height: 600px;
         background: url(/assets/images/Irina/IMG_5473.JPG) no-repeat center center;
         background-size: cover;
 
@@ -383,13 +381,13 @@ $tablet: 768px;
         }
     }
 
-    .about__button {
-        margin: auto;
-        padding: 6px 4px;
-        font-size: 14px;
-        color: $colorbrowntext_3;
-        border-radius: 4px;
-        background-color: $white;
+    .about__wrapper_button {
+        display: none;
+    }
+
+    .about__wrapper_button-light {
+        display: flex;
+        justify-content: center;
     }
 
     .about__photo_desktop img {
