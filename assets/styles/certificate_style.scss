@@ -3,14 +3,14 @@
 
 
 .certificates-and-education {
-    background-color: $blue-dark;
+    background-color: $colorblue_1;
   }
   
   .certificates-and-education__wrapper {
     padding: 5% 10%;
   }
   
-  .certificates-and-education__carousel__container {
+  .certificates-and-education__carousel-container {
     display: grid;
     grid-template-rows: 40% 30% 30%;
     grid-template-columns: 65% 35%;
@@ -21,19 +21,19 @@
     grid-gap: 1%;
   }
   
-  .certificates-and-education__carousel__vertical {
+  .certificates-and-education__carousel_vertical {
     grid-area: vert;
   }
   
-  .certificates-and-education__carousel__list {
+  .certificates-and-education__list {
     grid-area: li;
   }
   
-  .certificates-and-education__carousel__horizontal {
+  .certificates-and-education__carousel_horizontal {
     grid-area: hor;
   }
   
-  .certificates-and-education__carousel__diploma {
+  .certificates-and-education__carousel_diploma {
     grid-area: dip;
   }
   
@@ -45,7 +45,7 @@
 
   }
 
-  .certificates-and-education__list__ul {
+  .certificates-and-education__list_ul {
     margin: 5% 2%;
     list-style-image: url("../../assets/images/certificates/list-icon.png");
     list-style-position: inside;
@@ -53,19 +53,19 @@
    
   }
   
-  .certificates-and-education__list__item {
+  .certificates-and-education__list_item {
     margin-bottom: 3%;
     font: 400 22px "Noto Serif", sans-serif;
     color: $colorbrownblock;
   }
 
-  .certificates-and-education__list__item:hover {
+  .certificates-and-education__list_item:hover {
     box-shadow: 0 3px 10px 2px #30444f;
     transition: box-shadow 0.2s ease-out;
   }
   
   @media screen and (max-width: $tablet) {
-    .certificates-and-education__carousel__container {
+    .certificates-and-education__carousel-container {
       display: flex;
       flex-direction: column;
       gap: 10px;
@@ -78,7 +78,7 @@
         text-align: center;   
     }
   
-    .certificates-and-education__list__item {
+    .certificates-and-education__list_item {
       margin-bottom: 1%;
       font: 400 14px "Noto Serif", sans-serif;
       color: $colorbrownblock;
