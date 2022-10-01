@@ -78,30 +78,24 @@ $white: #ffffff;
          }
       }
    }
-
 }
 
 @media (max-width:1023px) {
    .menu__list {
       padding-right: 10px;
    }
-
-
-
 }
 
 @media (max-width:767px) {
    .menu {
       display: none;
    }
-
 }
 
 @media (min-width:767px) {
    .wrapper {
       display: none;
    }
-
 }
 
 @media(min-width:701px)and(max-width:959px) {
@@ -117,10 +111,15 @@ $white: #ffffff;
 
    .menu__item {
       padding: 6px 10px;
-
    }
 
    .menu__list {
-      padding-right: 0px;
+      padding: 0 30px 30px 30px;
+      display: flex;
+      font-size: 10px;
+   }
+
+   .menu__link {
+      font-size: 18px;
    }
 }
