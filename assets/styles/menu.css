@@ -236,6 +236,11 @@
     padding: 6px 10px;
   }
   .menu__list {
-    padding-right: 0px;
+    padding: 0 30px 30px 30px;
+    display: flex;
+    font-size: 10px;
+  }
+  .menu__link {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=menu.css.map */
