@@ -1,0 +1,77 @@
+.header-test {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 28.6px;
+  color: #131108;
+}
+
+.block1-test--head {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 81.72px;
+  color: #161202;
+}
+
+.block1-test--text {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 29.96px;
+  color: #1A1919;
+}
+
+.contacts__title {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 34.05px;
+  color: #405A69;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-left: 24px;
+}
+
+.contacts__gridcontainer-adress {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 25px;
+  margin-top: 10px;
+  color: #161202;
+}
+
+@media screen and (min-width: 767px) {
+  .contacts__gridcontainer {
+    display: grid;
+    grid-template-columns: 80px 290px;
+    grid-template-rows: repeat(4, 70px);
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+.contacts__gridcontainer-data {
+  font-family: normal 400 "Noto Serif", serif;
+  font-size: 19px;
+  line-height: 25px;
+  align-self: center;
+}
+.contacts__gridcontainer img {
+  align-self: center;
+}
+.contacts__gridcontainer-adress {
+  font-size: 17px;
+  grid-column: 1/3;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 767px) {
+  .contacts__map {
+    grid-column: 1/3;
+    margin-top: 25px;
+    width: 490%;
+  }
+}/*# sourceMappingURL=styleframe8.css.map */
