@@ -23,7 +23,7 @@
   color: #1a1919;
 }
 
-.title {
+.examples-title {
   font-family: Noto Serif;
   font-style: normal;
   font-size: 25px;
@@ -32,7 +32,7 @@
   background-color: #405a69;
 }
 
-.subtitle {
+.examples-subtitle {
   font-family: Noto Serif;
   font-style: normal;
   font-size: 5px;
@@ -159,7 +159,7 @@
   overflow-x: hidden;
 }
 
-.wrapper {
+.examples-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -168,25 +168,25 @@
   padding-bottom: 30px;
 }
 
-.title,
-.subtitle {
-  width: 100vw;
+.examples-title,
+.examples-subtitle {
+  width: 100%;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
 }
 
-.title {
+.examples-title {
   font-size: 20px;
 }
 
-.subtitle {
+.examples-subtitle {
   margin: 20px;
   font-size: 10px;
 }
 
 .examples {
-  width: 80vw;
+  width: 80%;
 }
 .examples__text-slide {
   font: 400 20px/24px "Noto Serif", sans-serif;
@@ -199,10 +199,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .title {
+  .examples-title {
     font-size: 60px;
   }
-  .subtitle {
+  .examples-subtitle {
     font-size: 25px;
   }
   .examples__text-slide {
