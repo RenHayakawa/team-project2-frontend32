@@ -12,7 +12,7 @@ html {
 
 //Мобильная версия//
 
-.wrapper {
+.wrapper-footer {
     width: 100vw;
     padding: 0 20px 0 20px;
     background-color: $colorblue_1;
@@ -58,14 +58,6 @@ html {
     text-decoration: underline;
 }
 
-.footer__copyright {
-    padding: 15px 0 15px 0;
-    @extend %footer-mob;
-    text-align: center;
-    border-top: 1.5px solid #27394b;
-    background-color: $colorblue_1;
-}
-
 //Десктоп-Планшет//
 
 @media screen and (min-width: 768px) {
@@ -75,9 +67,5 @@ html {
 
     .footer__address {
         font-size: 16px;
-    }
-
-    .footer__copyright {
-        font-size: 13px;
     }
 }
