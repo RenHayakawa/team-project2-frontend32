@@ -281,6 +281,10 @@ $tablet: 768px;
     }
 }
 
+.about__wrapper {
+    margin: 55px;
+}
+
 .about__title {
     margin-top: 0;
     @extend %block1-head;
@@ -318,7 +322,7 @@ $tablet: 768px;
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .about {
-        padding-top: 200px;
+        padding-top: 30px;
         flex-direction: column;
         align-items: center;
 
@@ -348,8 +352,7 @@ $tablet: 768px;
         justify-content: space-around;
         padding: 0 0 20px 0;
         height: 600px;
-        background: url(/assets/images/Irina/IMG_5473.JPG) no-repeat center
-            center;
+        background: url(/assets/images/Irina/IMG_5473.JPG) no-repeat center center;
         background-size: cover;
 
         &__wrapper {
@@ -453,7 +456,7 @@ $tablet: 768px;
             margin: 0 0 10px;
             color: $grey;
 
-            & > li {
+            &>li {
                 margin-bottom: 4px;
             }
         }

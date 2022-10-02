@@ -37,6 +37,10 @@
   width: 70%;
 }
 
+.about__wrapper {
+  margin: 55px;
+}
+
 .about__title {
   margin-top: 0;
   text-transform: uppercase;
@@ -68,7 +72,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .about {
-    padding-top: 200px;
+    padding-top: 30px;
     flex-direction: column;
     align-items: center;
   }
@@ -315,4 +319,4 @@
     font: 400 14px "Noto Serif", sans-serif;
     color: #f0eeea;
   }
-}
+}/*# sourceMappingURL=certificate_style.css.map */

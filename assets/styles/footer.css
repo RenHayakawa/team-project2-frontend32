@@ -54,6 +54,10 @@ html {
   width: 70%;
 }
 
+.about__wrapper {
+  margin: 55px;
+}
+
 .about__title {
   margin-top: 0;
   text-transform: uppercase;
@@ -85,7 +89,7 @@ html {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .about {
-    padding-top: 200px;
+    padding-top: 30px;
     flex-direction: column;
     align-items: center;
   }
@@ -312,4 +316,4 @@ html {
   .footer__address {
     font-size: 16px;
   }
-}
+}/*# sourceMappingURL=footer.css.map */
