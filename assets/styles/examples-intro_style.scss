@@ -1,0 +1,67 @@
+@import "style.scss";
+
+.examples-work__wrapper {
+    margin: 0 auto;
+    background-color: $colorbrownblock;
+}
+
+.examples-work__heading {
+    color: #181945;
+    font: 400 54px "Noto Serif", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.examples-work__intro_pic {
+    width: 40%;
+}
+.examples-work__intro {
+    text-align: center;
+}
+
+.button {
+    /* block */
+    display: inline-block;
+    padding: 1rem 1.25rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    /* decoration */
+    border-radius: 10px;
+    /* font decoration */
+    text-decoration: none;
+    text-align: center;
+    font: $button1 ;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* animation */
+    transition: all 1s;
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $colorblue_1;
+        z-index: -2;
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: darken($colorblue_1, 15%);
+        transition: all 1s;
+        z-index: -1;
+    }
+    &:hover {
+        color: #fff;
+        &:before {
+            width: 100%;
+        }
+    }
+}
