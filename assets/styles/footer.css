@@ -260,10 +260,6 @@ html {
   }
 }
 
-.overflow-hidden {
-  overflow-x: hidden;
-}
-
 .wrapper-footer {
   width: 100%;
   padding: 30px 20px;
@@ -316,4 +312,4 @@ html {
   .footer__address {
     font-size: 16px;
   }
-}/*# sourceMappingURL=footer.css.map */
+}

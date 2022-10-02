@@ -27,7 +27,7 @@
 .about {
   display: flex;
   justify-content: space-between;
-  padding: 150px 100px 72px 100px;
+  padding: 130px 100px 72px 100px;
   background-color: #f0eeea;
 }
 .about__wrapper {
@@ -66,6 +66,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .about {
+    padding-top: 200px;
     flex-direction: column;
     align-items: center;
   }
@@ -240,10 +241,6 @@
   }
 }
 
-.overflow-hidden {
-  overflow-x: hidden;
-}
-
 .header {
   position: fixed;
   background-color: #ffffff;
@@ -346,4 +343,4 @@
   .menu__link {
     font-size: 18px;
   }
-}/*# sourceMappingURL=menu.css.map */
+}
