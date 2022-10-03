@@ -24,7 +24,7 @@
   color: #161202;
 }
 
-.examples-title {
+.examples-wrapper__title {
   font-family: Noto Serif;
   font-style: normal;
   font-size: 25px;
@@ -268,10 +268,11 @@
   justify-content: center;
   align-items: center;
   background-color: #405a69;
-  padding-bottom: 30px;
+  padding: 50px 0px 30px;
+  overflow-x: hidden;
 }
 
-.examples-title,
+.examples-wrapper__title,
 .examples-subtitle {
   width: 100%;
   text-align: center;
@@ -279,8 +280,8 @@
   color: #ffffff;
 }
 
-.examples-title {
-  font-size: 20px;
+.examples-wrapper__title {
+  font-size: 15px;
 }
 
 .examples-subtitle {
@@ -302,7 +303,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .examples-title {
+  .examples-wrapper__title {
     font-size: 60px;
   }
   .examples-subtitle {

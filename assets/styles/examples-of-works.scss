@@ -6,10 +6,11 @@
   justify-content: center;
   align-items: center;
   background-color: $colorblue_1;
-  padding-bottom: 30px;
+  padding: 50px 0px 30px;
+  overflow-x: hidden;
 }
 
-.examples-title,
+.examples-wrapper__title,
 .examples-subtitle {
   width: 100%;
   text-align: center;
@@ -17,9 +18,9 @@
   color: $colorwhite;
 }
 
-.examples-title {
+.examples-wrapper__title {
   @extend %block2-head-mob;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .examples-subtitle {
@@ -45,7 +46,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .examples-title {
+  .examples-wrapper__title {
     font-size: 60px;
   }
 
