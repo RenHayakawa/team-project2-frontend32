@@ -285,8 +285,9 @@ $tablet: 768px;
     margin: 55px;
 }
 
+
 .about__title {
-    margin-top: 0;
+    margin-top: 40px;
     @extend %block1-head;
     text-transform: uppercase;
 }
