@@ -1,5 +1,9 @@
 @import "style.scss";
 
+h2 {
+    margin: 0;
+}
+
 .examples-work__wrapper {
     margin: 0 auto;
     background-color: $colorbrownblock;
@@ -7,16 +11,22 @@
 
 .examples-work__heading {
     color: #181945;
-    font: 400 54px "Noto Serif", sans-serif;
+    font: 400 28px/36px "Noto Serif", sans-serif;
     text-transform: uppercase;
     text-align: center;
+    padding: 20px;
 }
 
 .examples-work__intro_pic {
     width: 40%;
 }
+
 .examples-work__intro {
     text-align: center;
+}
+
+.container {
+    padding: 20px;
 }
 
 .button {
@@ -31,12 +41,13 @@
     /* font decoration */
     text-decoration: none;
     text-align: center;
-    font: $button1 ;
+    @extend %button1;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
     /* animation */
     transition: all 1s;
+
     &:after {
         content: '';
         position: absolute;
@@ -47,6 +58,7 @@
         background-color: $colorblue_1;
         z-index: -2;
     }
+
     &:before {
         content: '';
         position: absolute;
@@ -58,10 +70,18 @@
         transition: all 1s;
         z-index: -1;
     }
+
     &:hover {
         color: #fff;
+
         &:before {
             width: 100%;
         }
+    }
+}
+
+@media (min-width: 768px) {
+    .examples-work__heading {
+        font: 400 60px/86px "Noto Serif", sans-serif;
     }
 }
