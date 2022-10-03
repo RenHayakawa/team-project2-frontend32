@@ -41,10 +41,12 @@ ___
 ___
 
 _Авторы:_
-
+[Елена Турленко](https://github.com/elenaturlenko)<br>
+[Алексеева Анастасия]()<br>
+[Глебова Любовь](https://github.com/glebishna)<br>
+[Кармолина Елизавета](https://github.com/RenHayakawa)<br>
 [Оксана Травкина](https://github.com/ryaba-ya)<br>
 [Мария Желонкина](https://github.com/Marysemm)<br>
 [Юлия Перекрестова](https://github.com/JuliaMichaela)<br>
-[Елена Турленко]()<br>
 
 
