@@ -24,7 +24,7 @@
   color: #161202;
 }
 
-.examples-title {
+.examples-wrapper__title {
   font-family: Noto Serif;
   font-style: normal;
   font-size: 25px;
@@ -267,7 +267,7 @@
   padding-bottom: 30px;
 }
 
-.examples-title,
+.examples-wrapper__title,
 .examples-subtitle {
   width: 100%;
   text-align: center;
@@ -275,7 +275,7 @@
   color: #ffffff;
 }
 
-.examples-title {
+.examples-wrapper__title {
   font-size: 20px;
 }
 
@@ -298,7 +298,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .examples-title {
+  .examples-wrapper__title {
     font-size: 60px;
   }
   .examples-subtitle {
@@ -308,4 +308,4 @@
     font-size: 50px;
     line-height: 50px;
   }
-}
+}/*# sourceMappingURL=examples-of-works.css.map */
