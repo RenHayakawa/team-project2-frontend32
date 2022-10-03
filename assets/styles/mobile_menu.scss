@@ -1,4 +1,4 @@
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 830px) {
 
    #check-menu {
       display: none;
@@ -13,20 +13,21 @@
    }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 830px) {
 
    @import 'style.scss';
 
    .wrapper {
       position: relative;
-      height: 45px;
-      padding: 16px 16px 0 16px;
+      height: 55px;
+      padding: 10px 12px;
       color: $colorwhite;
    }
 
 
    #check-menu {
       display: none;
+      height: 100%;
    }
 
    label {
@@ -76,6 +77,10 @@
       transition: .5s all;
    }
 
+   ul {
+      margin: 0;
+   }
+
    .main__menu-list {
       display: flex;
       flex-direction: column;
@@ -88,10 +93,12 @@
    }
 
    .main__menu-links {
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
       width: 100%;
       margin: 15px;
-      padding-top: 17px;
       width: 254px;
       height: 30px;
       text-decoration: none;
