@@ -295,13 +295,21 @@ p {
     justify-content: center;
     flex-wrap: wrap;
   }
+  .contacts__gridcontainer-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
   .contacts__container-item {
     font: normal 400 15px/25px "Noto Serif", serif;
-    padding: 20px;
+    padding: 4px;
   }
   .contacts__gridcontainer-pics {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
   }
   .contacts__gridcontainer-pic {
     padding: 10px;
