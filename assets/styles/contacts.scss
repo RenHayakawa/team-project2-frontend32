@@ -16,7 +16,7 @@ p {
     color: $colorbrowntext_3;
     text-transform: uppercase;
     text-align: center;
-    padding: 72px;
+    padding: 55px 0 20px 0;
 }
 
 .contacts__map {
@@ -27,10 +27,10 @@ p {
 .map__wrapper {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 20px 0 55px 0;
 }
 
-.contacts__gridcontainer-data {
+.contacts__container-data {
     @extend %block6-text;
 }
 
@@ -43,13 +43,13 @@ p {
         padding: 52px;
     }
 
-    .contacts__gridcontainer {
+    .contacts__container {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
 
-    .contacts__gridcontainer-data {
+    .contacts__container-data {
         @extend %block6-text;
         display: flex;
         flex-direction: column;
@@ -62,18 +62,18 @@ p {
         padding: 4px;
     }
 
-    .contacts__gridcontainer-pics {
+    .contacts__container-pics {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-around;
     }
 
-    .contacts__gridcontainer-pic {
+    .contacts__container-pic {
         padding: 10px;
     }
 
-    .contacts__gridcontainer-adress {
+    .contacts__container-adress {
         width: 100%;
         text-align: center;
         padding: 30px 0 30px 0;
@@ -87,25 +87,25 @@ p {
         word-break: normal;
     }
 
-    .contacts__gridcontainer {
+    .contacts__container {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
     }
 
-    .contacts__gridcontainer-data {
+    .contacts__container-data {
         font: normal 400 22px/29px 'Noto Serif', serif;
         color: $colorbrowntext_3;
     }
 
-    .contacts__gridcontainer-pic {
+    .contacts__container-pic {
         display: flex;
         width: 120%;
         padding: 18px;
     }
 
-    .contacts__gridcontainer-adress {
+    .contacts__container-adress {
         font: normal 400 20px/25px 'Noto Serif', serif;
         width: 100%;
         text-align: center;
@@ -119,7 +119,7 @@ p {
     .map__wrapper {
         margin: 0 auto;
         width: 100%;
-        padding-bottom: 100px;
+        padding-bottom: 55px;
     }
 }
 
@@ -128,7 +128,7 @@ p {
         padding: 30px;
     }
 
-    .contacts__gridcontainer-pic {
+    .contacts__container-pic {
         width: 80%;
         padding: 10px 0;
     }
