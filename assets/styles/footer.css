@@ -305,6 +305,10 @@ html {
   text-decoration: none;
   background-color: transparent;
 }
+.footer__address:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
 .footer__address span {
   text-decoration: underline;
