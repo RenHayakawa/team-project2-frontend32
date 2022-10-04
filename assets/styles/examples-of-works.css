@@ -269,7 +269,6 @@
   align-items: center;
   background-color: #405a69;
   padding: 50px 0px 30px;
-  overflow-x: hidden;
 }
 
 .examples-wrapper__title,
@@ -291,6 +290,8 @@
 
 .examples {
   width: 80%;
+  display: flex;
+  justify-content: center;
 }
 .examples__text-slide {
   font: 400 20px/24px "Noto Serif", sans-serif;
@@ -310,7 +311,7 @@
     font-size: 20px;
   }
   .examples__text-slide {
-    font-size: 50px;
+    font-size: 30px;
     line-height: 50px;
   }
 }/*# sourceMappingURL=examples-of-works.css.map */

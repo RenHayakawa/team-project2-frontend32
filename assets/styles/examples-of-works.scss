@@ -7,7 +7,6 @@
   align-items: center;
   background-color: $colorblue_1;
   padding: 50px 0px 30px;
-  overflow-x: hidden;
 }
 
 .examples-wrapper__title,
@@ -31,7 +30,8 @@
 
 .examples {
   width: 80%;
-
+  display: flex;
+  justify-content: center;
   &__text-slide {
     font: 400 20px/24px "Noto Serif", sans-serif;
   }
@@ -55,7 +55,7 @@
   }
 
   .examples__text-slide {
-    font-size: 50px;
+    font-size: 30px;
     line-height: 50px;
   }
 }
