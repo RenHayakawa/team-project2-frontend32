@@ -6,7 +6,8 @@
   color: #131108;
 }
 
-.about__title, .block1-test--head {
+.about__title,
+.block1-test--head {
   font-family: Noto Serif;
   font-style: normal;
   font-size: 60px;
@@ -16,7 +17,8 @@
   word-break: normal;
 }
 
-.about__text, .block1-test--text {
+.about__text,
+.block1-test--text {
   font-family: Noto Serif;
   font-style: normal;
   font-size: 22px;
@@ -47,7 +49,8 @@
 .about__text {
   margin-bottom: 40px;
 }
-.about__text_part1, .about__text_part2 {
+.about__text_part1,
+.about__text_part2 {
   margin-bottom: 35px;
 }
 
@@ -79,7 +82,7 @@
     width: 100%;
   }
   .about__title,
-.about__text {
+  .about__text {
     text-align: center;
   }
   .about__wrapper_button {
@@ -115,7 +118,9 @@
     text-align: center;
     background-color: rgba(155, 153, 153, 0.61);
   }
-  .about__text_part1, .about__text_part2, .about__text_part3 {
+  .about__text_part1,
+  .about__text_part2,
+  .about__text_part3 {
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -131,6 +136,7 @@
   }
 }
 .methodology-and-checklists {
+  padding-top: 80px;
   background-color: #405a69;
 }
 .methodology-and-checklists__cards {
@@ -216,7 +222,8 @@
   color: #ffffff;
   word-break: break-word;
 }
-.methodology-and-checklists__about, .methodology-and-checklists__about-second {
+.methodology-and-checklists__about,
+.methodology-and-checklists__about-second {
   margin: 0 auto 22px;
   font: 400 14px/18px "Noto Serif", sans-serif;
   letter-spacing: 0.04em;
@@ -235,7 +242,8 @@
   .methodology-and-checklists__title {
     font: 400 60px/86px "Noto Serif", sans-serif;
   }
-  .methodology-and-checklists__about, .methodology-and-checklists__about-second {
+  .methodology-and-checklists__about,
+  .methodology-and-checklists__about-second {
     font: 400 22px/30px "Noto Serif", sans-serif;
   }
 }
@@ -243,4 +251,4 @@
   .methodology-and-checklists .d-md-block {
     display: none;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

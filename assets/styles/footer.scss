@@ -51,7 +51,13 @@ html {
     font-size: 13px;
     line-height: 25px;
     text-align: center;
+    text-decoration: none;
     background-color: transparent;
+
+    &:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
 }
 
 .footer__address span {

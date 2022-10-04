@@ -281,11 +281,11 @@
 }
 
 .examples-wrapper__title {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .examples-subtitle {
-  margin: 20px;
+  margin: 5px;
   font-size: 10px;
 }
 
@@ -304,10 +304,10 @@
 
 @media screen and (min-width: 768px) {
   .examples-wrapper__title {
-    font-size: 60px;
+    font-size: 35px;
   }
   .examples-subtitle {
-    font-size: 25px;
+    font-size: 20px;
   }
   .examples__text-slide {
     font-size: 50px;

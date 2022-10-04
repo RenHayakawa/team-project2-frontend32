@@ -249,6 +249,7 @@
 
 .certificates-and-education {
   background-color: #405a69;
+  padding-top: 100px;
 }
 
 .certificates-and-education__wrapper {
@@ -262,6 +263,7 @@
   grid-template-columns: 65% 35%;
   grid-template-areas: "vert li" "hor hor" "dip dip";
   grid-gap: 1%;
+  padding-bottom: 30px;
 }
 
 .certificates-and-education__carousel_vertical {
