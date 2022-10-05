@@ -535,8 +535,13 @@ $tablet: 768px;
         & .d-md-block {
             display: none;
         }
+        .methodology-and-checklists__wrapper-1 {
+            padding: 90px 30px 40px;
+        }
     }
 }
+
+// Паддинг для отдельной страницы с Инфопродуктам и изменение размера заголовка для десктопа
 
 .methodology-and-checklists__wrapper-1 {
     padding: 130px 30px 40px;

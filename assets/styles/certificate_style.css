@@ -245,6 +245,9 @@
   .methodology-and-checklists .d-md-block {
     display: none;
   }
+  .methodology-and-checklists .methodology-and-checklists__wrapper-1 {
+    padding: 90px 30px 40px;
+  }
 }
 
 .methodology-and-checklists__wrapper-1 {
@@ -286,7 +289,7 @@
 
 .certificates-and-education__heading {
   padding: 30px 0px 30px;
-  color: #f0eeea;
+  color: #ffffff;
   font: 400 40px "Noto Serif", sans-serif;
   text-transform: uppercase;
   text-align: center;
@@ -302,7 +305,7 @@
 .certificates-and-education__list_item {
   margin-bottom: 3%;
   font: 400 22px "Noto Serif", sans-serif;
-  color: #f0eeea;
+  color: #ffffff;
 }
 
 .certificates-and-education__list_item:hover {
@@ -317,7 +320,7 @@
     gap: 10px;
   }
   .certificates-and-education__heading {
-    padding: 20px 0px 20px;
+    padding: 5px 0px 20px;
     color: #f0eeea;
     font: 400 24px "Noto Serif", sans-serif;
   }

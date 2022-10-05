@@ -272,6 +272,9 @@
   .methodology-and-checklists .d-md-block {
     display: none;
   }
+  .methodology-and-checklists .methodology-and-checklists__wrapper-1 {
+    padding: 90px 30px 40px;
+  }
 }
 @media screen and (max-width: 830px) {
   .methodology-and-checklists__wrapper-1 {
