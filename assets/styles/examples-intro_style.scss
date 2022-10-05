@@ -11,10 +11,10 @@ h2 {
 
 .examples-work__heading {
     color: #161202;
-    font: 400 28px/36px "Noto Serif", sans-serif;
+    font: 400 25px/36px "Noto Serif", sans-serif;
     text-transform: uppercase;
     text-align: center;
-    padding: 20px;
+    padding: 30px 0;
 }
 
 .examples-work__intro_pic {
@@ -26,7 +26,7 @@ h2 {
 }
 
 .container {
-    padding: 20px;
+    padding: 30px;
 }
 
 .button {
@@ -80,8 +80,9 @@ h2 {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     .examples-work__heading {
-        font: 400 60px/86px "Noto Serif", sans-serif;
+        font: 400 40px/86px "Noto Serif", sans-serif;
+        padding: 30px 0;
     }
 }
