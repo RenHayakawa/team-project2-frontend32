@@ -19,7 +19,7 @@ html {
 .about__title, .block1-test--head {
   font-family: Noto Serif;
   font-style: normal;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 400;
   line-height: 81.72px;
   color: #161202;
@@ -29,7 +29,7 @@ html {
 .about__text, .block1-test--text {
   font-family: Noto Serif;
   font-style: normal;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 29.96px;
   color: #161202;
 }
@@ -174,7 +174,7 @@ html {
 }
 .methodology-and-checklists__card__title {
   margin: 0 0 12px;
-  font: 700 12px/16px "Garamond", sans-serif;
+  font: 700 10px/16px "Garamond", sans-serif;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #161202;
@@ -220,7 +220,7 @@ html {
 }
 .methodology-and-checklists__wrapper {
   margin: 0 auto;
-  padding: 72px 20px;
+  padding: 20px 20px 30px;
 }
 .methodology-and-checklists__info-content {
   max-width: 1000px;
@@ -228,8 +228,8 @@ html {
   text-align: center;
 }
 .methodology-and-checklists__title {
-  margin: 0 0 22px;
-  font: 400 28px/36px "Noto Serif", sans-serif;
+  margin: 0 0 15px;
+  font: 400 25px/36px "Noto Serif", sans-serif;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   color: #ffffff;
@@ -252,7 +252,7 @@ html {
     align-self: stretch;
   }
   .methodology-and-checklists__title {
-    font: 400 60px/86px "Noto Serif", sans-serif;
+    font: 400 40px/86px "Noto Serif", sans-serif;
   }
   .methodology-and-checklists__about, .methodology-and-checklists__about-second {
     font: 400 22px/30px "Noto Serif", sans-serif;
@@ -262,6 +262,13 @@ html {
   .methodology-and-checklists .d-md-block {
     display: none;
   }
+  .methodology-and-checklists .methodology-and-checklists__wrapper-1 {
+    padding: 90px 30px 40px;
+  }
+}
+
+.methodology-and-checklists__wrapper-1 {
+  padding: 130px 30px 40px;
 }
 
 .wrapper-footer {
