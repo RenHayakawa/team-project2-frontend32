@@ -4,12 +4,11 @@
 
 .certificates-and-education {
     background-color: $colorblue_1;
-    padding-top: 100px;
+    padding: 70px 0px 10px;
   }
   
   .certificates-and-education__wrapper {
-    padding: 5% 10%;
-    padding-top: 10px;
+    padding: 10px 5% 8%;
   }
   
   .certificates-and-education__carousel-container {
@@ -21,7 +20,6 @@
       "hor hor"
       "dip dip";
     grid-gap: 1%;
-    padding-bottom: 30px;
   }
   
   .certificates-and-education__carousel_vertical {
@@ -41,8 +39,9 @@
   }
   
   .certificates-and-education__heading {
+    padding: 30px 0px 30px;
     color: $colorbrownblock;
-    font: 400 60px "Noto Serif", sans-serif;
+    font: 400 40px "Noto Serif", sans-serif;
     text-transform: uppercase;
     text-align: center;
 
@@ -75,6 +74,7 @@
     }
   
     .certificates-and-education__heading {
+        padding: 20px 0px 20px;
         color: $colorbrownblock;
         font: 400 24px "Noto Serif", sans-serif;
   

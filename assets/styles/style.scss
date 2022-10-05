@@ -61,7 +61,7 @@ $tablet: 768px;
 %block1-head {
     font-family: Noto Serif;
     font-style: normal;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 400;
     line-height: 81.72px;
     color: $colorbrowntext_3;
@@ -77,7 +77,7 @@ $tablet: 768px;
 %block1-text {
     font-family: Noto Serif;
     font-style: normal;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 29.96px;
     color: $colorbrowntext_3;
 }
@@ -428,7 +428,7 @@ $tablet: 768px;
 
         &__title {
             margin: 0 0 12px;
-            font: 700 12px/16px "Garamond", sans-serif;
+            font: 700 10px/16px "Garamond", sans-serif;
             letter-spacing: 0.08em;
             text-transform: uppercase;
             color: $colorbrowntext_3;
@@ -483,7 +483,7 @@ $tablet: 768px;
 
     &__wrapper {
         margin: 0 auto;
-        padding: 72px 20px;
+        padding: 20px 20px 30px;
     }
 
     &__info-content {
@@ -493,8 +493,8 @@ $tablet: 768px;
     }
 
     &__title {
-        margin: 0 0 22px;
-        font: 400 28px/36px "Noto Serif", sans-serif;
+        margin: 0 0 15px;
+        font: 400 25px/36px "Noto Serif", sans-serif;
         letter-spacing: 0.07em;
         text-transform: uppercase;
         color: $white;
@@ -522,7 +522,7 @@ $tablet: 768px;
         }
 
         &__title {
-            font: 400 60px/86px "Noto Serif", sans-serif;
+            font: 400 40px/86px "Noto Serif", sans-serif;
         }
 
         &__about,
@@ -536,4 +536,8 @@ $tablet: 768px;
             display: none;
         }
     }
+}
+
+.methodology-and-checklists__wrapper-1 {
+    padding: 130px 30px 40px;
 }
