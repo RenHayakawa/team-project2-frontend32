@@ -59,3 +59,11 @@
     line-height: 50px;
   }
 }
+
+.carousel-caption {
+  z-index: 0;
+}
+
+.carousel-indicators {
+  z-index: 1;
+}
