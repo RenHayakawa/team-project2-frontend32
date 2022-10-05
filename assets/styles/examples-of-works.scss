@@ -31,11 +31,12 @@
 }
 
 .examples {
-  width: 80%;
+  width: 150%;
   display: flex;
   justify-content: center;
+
   &__text-slide {
-    font: 400 20px/24px "Noto Serif", sans-serif;
+    font: 400 16px/22px "Noto Serif", sans-serif;
   }
 
   &__img-slide-4_direction {
@@ -47,13 +48,17 @@
   }
 }
 
+.examples p {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 768px) {
   .examples-wrapper {
     padding-bottom: 40px;
   }
 
   .examples-wrapper__title {
-    font-size: 24px;
+    font-size: 25px;
     margin-bottom: -50px;
     padding-top: 50px;
   }
@@ -65,5 +70,9 @@
   .examples__text-slide {
     font-size: 30px;
     line-height: 50px;
+  }
+
+  .examples {
+    width: 80%;
   }
 }

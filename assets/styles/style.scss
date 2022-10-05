@@ -426,9 +426,9 @@ $tablet: 768px;
             margin-bottom: 18px;
         }
 
-        &__title {
+        .methodology-and-checklists__card__title {
             margin: 0 0 12px;
-            font: 700 10px/16px "Garamond", sans-serif;
+            font: 700 12px/16px "Garamond", sans-serif;
             letter-spacing: 0.08em;
             text-transform: uppercase;
             color: $colorbrowntext_3;
@@ -481,9 +481,9 @@ $tablet: 768px;
         }
     }
 
-    &__wrapper {
+    .methodology-and-checklists__wrapper {
         margin: 0 auto;
-        padding: 20px 20px 30px;
+        padding: 130px 30px 40px;
     }
 
     &__info-content {
@@ -492,7 +492,7 @@ $tablet: 768px;
         text-align: center;
     }
 
-    &__title {
+    .methodology-and-checklists__title {
         margin: 0 0 15px;
         font: 400 25px/36px "Noto Serif", sans-serif;
         letter-spacing: 0.07em;
@@ -521,13 +521,13 @@ $tablet: 768px;
             align-self: stretch;
         }
 
-        &__title {
-            font: 400 40px/86px "Noto Serif", sans-serif;
-        }
-
         &__about,
         &__about-second {
             font: 400 22px/30px "Noto Serif", sans-serif;
+        }
+
+        .methodology-and-checklists__title {
+            font: 400 40px/86px "Noto Serif", sans-serif;
         }
     }
 
@@ -535,14 +535,9 @@ $tablet: 768px;
         & .d-md-block {
             display: none;
         }
-        .methodology-and-checklists__wrapper-1 {
-            padding: 90px 30px 40px;
+
+        .methodology-and-checklists__wrapper {
+            padding: 80px 30px 40px;
         }
     }
-}
-
-// Паддинг для отдельной страницы с Инфопродуктам и изменение размера заголовка для десктопа
-
-.methodology-and-checklists__wrapper-1 {
-    padding: 130px 30px 40px;
 }
