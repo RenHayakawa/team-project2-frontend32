@@ -26,21 +26,25 @@
 
 .about {
   display: flex;
-  justify-content: space-between;
-  padding: 130px 100px 72px 100px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 100px 30px 100px;
   background-color: #f0eeea;
 }
+.about__text-and-photo {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 40px;
+}
 .about__wrapper {
-  padding-right: 40px;
+  padding-right: 90px;
   width: 70%;
 }
 
-.about__wrapper {
-  margin: 55px;
-}
-
 .about__title {
-  margin-top: 40px;
+  margin-top: 0;
+  line-height: 60px;
   text-transform: uppercase;
 }
 
@@ -61,7 +65,7 @@
 }
 
 .about__photo_desktop {
-  width: 600px;
+  width: 500px;
 }
 
 .about__photo_desktop img {
@@ -70,9 +74,16 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .about {
-    padding-top: 30px;
+    flex-direction: column;
+    padding-top: 130px;
     flex-direction: column;
     align-items: center;
+  }
+  .about__text-and-photo {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
   }
   .about__wrapper {
     padding-right: 0;
@@ -82,27 +93,32 @@
 .about__text {
     text-align: center;
   }
-  .about__wrapper_button {
-    justify-content: center;
-    margin-bottom: 40px;
+  .about__text {
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 767px) {
   .about {
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    padding: 0 0 20px 0;
+    justify-content: flex-start;
+    padding: 60px 0 30px 3px;
     height: 600px;
-    background: url(/assets/images/Irina/IMG_5473.JPG) no-repeat center center;
+    background: url(/assets/images/Irina/Photo_mobile_background.png) no-repeat center center;
     background-size: cover;
+  }
+  .about__text-and-photo {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    width: 100%;
   }
   .about__wrapper {
     padding-right: 0;
     width: 100%;
   }
   .about__title {
-    margin-bottom: 90px;
+    margin: 0 0 70px 0;
     font-size: 25px;
     line-height: 35px;
     color: #ffffff;
@@ -113,7 +129,6 @@
     line-height: 18px;
     color: #ffffff;
     text-align: center;
-    background-color: rgba(155, 153, 153, 0.61);
   }
   .about__text_part1, .about__text_part2, .about__text_part3 {
     margin-top: 5px;
