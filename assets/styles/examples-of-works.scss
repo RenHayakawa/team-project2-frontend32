@@ -31,7 +31,7 @@
 }
 
 .examples {
-  width: 150%;
+  width: 100%;
   display: flex;
   justify-content: center;
 
@@ -50,6 +50,14 @@
 
 .examples p {
   margin-bottom: 0;
+}
+
+.carousel-caption {
+  z-index: 0;
+}
+
+.carousel-indicators {
+  z-index: 1;
 }
 
 @media screen and (min-width: 768px) {
@@ -73,6 +81,6 @@
   }
 
   .examples {
-    width: 80%;
+    width: 70%;
   }
 }
