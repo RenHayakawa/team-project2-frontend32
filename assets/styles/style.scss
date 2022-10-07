@@ -428,7 +428,7 @@ $tablet: 768px;
 
         &__title {
             margin: 0 0 12px;
-            font: 700 12px/16px "Garamond", sans-serif;
+            font: 700 18px/24px "Garamond", sans-serif;
             letter-spacing: 0.08em;
             text-transform: uppercase;
             color: $colorbrowntext_3;
@@ -436,7 +436,7 @@ $tablet: 768px;
 
         &__subtitle {
             margin: 0 0 12px;
-            font: 700 18px/24px "Eudoxus Sans", sans-serif;
+            font: 700 18px/24px "Garamond", sans-serif;
             color: $blue-dark;
 
             &-main {
@@ -447,7 +447,7 @@ $tablet: 768px;
         &__text {
             margin: 0 0 36px;
             font: 500 16px/22px "Eudoxus Sans", sans-serif;
-            color: $grey;
+            color: $blue-dark;
         }
 
         &__list {
@@ -455,7 +455,7 @@ $tablet: 768px;
             list-style-type: none;
             padding: 0;
             margin: 0 0 10px;
-            color: $grey;
+            color: $blue-dark;
 
             &>li {
                 margin-bottom: 4px;
@@ -466,13 +466,15 @@ $tablet: 768px;
             margin: auto auto 0;
             background-color: $colorblue_1;
             color: $white;
-            padding: 20px 0;
+            padding: 10px 10px;
             border-radius: 15px;
             max-width: 250px;
             width: 100%;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
             text-decoration: none;
             text-align: center;
-            font: 600 18px/26px "Garamond", sans-serif;
+            font: normal 400 16px/144.52% "EB Garamond", serif;
 
             &:hover {
                 box-shadow: 0 3px 10px 2px #30444f;

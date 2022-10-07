@@ -6,8 +6,7 @@
   color: #131108;
 }
 
-.about__title,
-.block1-test--head {
+.about__title, .block1-test--head {
   font-family: Noto Serif;
   font-style: normal;
   font-size: 60px;
@@ -17,8 +16,7 @@
   word-break: normal;
 }
 
-.about__text,
-.block1-test--text {
+.about__text, .block1-test--text {
   font-family: Noto Serif;
   font-style: normal;
   font-size: 22px;
@@ -49,8 +47,7 @@
 .about__text {
   margin-bottom: 40px;
 }
-.about__text_part1,
-.about__text_part2 {
+.about__text_part1, .about__text_part2 {
   margin-bottom: 35px;
 }
 
@@ -82,7 +79,7 @@
     width: 100%;
   }
   .about__title,
-  .about__text {
+.about__text {
     text-align: center;
   }
   .about__wrapper_button {
@@ -118,9 +115,7 @@
     text-align: center;
     background-color: rgba(155, 153, 153, 0.61);
   }
-  .about__text_part1,
-  .about__text_part2,
-  .about__text_part3 {
+  .about__text_part1, .about__text_part2, .about__text_part3 {
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -136,7 +131,6 @@
   }
 }
 .methodology-and-checklists {
-  padding-top: 80px;
   background-color: #405a69;
 }
 .methodology-and-checklists__cards {
@@ -161,14 +155,14 @@
 }
 .methodology-and-checklists__card__title {
   margin: 0 0 12px;
-  font: 700 12px/16px "Garamond", sans-serif;
+  font: 700 18px/24px "Garamond", sans-serif;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #161202;
 }
 .methodology-and-checklists__card__subtitle {
   margin: 0 0 12px;
-  font: 700 18px/24px "Eudoxus Sans", sans-serif;
+  font: 700 18px/24px "Garamond", sans-serif;
   color: #181945;
 }
 .methodology-and-checklists__card__subtitle-main {
@@ -177,14 +171,14 @@
 .methodology-and-checklists__card__text {
   margin: 0 0 36px;
   font: 500 16px/22px "Eudoxus Sans", sans-serif;
-  color: #c5c1c1;
+  color: #181945;
 }
 .methodology-and-checklists__card__list {
   font: 500 16px/22px "Eudoxus Sans", sans-serif;
   list-style-type: none;
   padding: 0;
   margin: 0 0 10px;
-  color: #c5c1c1;
+  color: #181945;
 }
 .methodology-and-checklists__card__list > li {
   margin-bottom: 4px;
@@ -193,13 +187,15 @@
   margin: auto auto 0;
   background-color: #405a69;
   color: #ffffff;
-  padding: 20px 0;
+  padding: 10px 10px;
   border-radius: 15px;
   max-width: 250px;
   width: 100%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  font: 600 18px/26px "Garamond", sans-serif;
+  font: normal 400 16px/144.52% "EB Garamond", serif;
 }
 .methodology-and-checklists__card__button:hover {
   box-shadow: 0 3px 10px 2px #30444f;
@@ -222,8 +218,7 @@
   color: #ffffff;
   word-break: break-word;
 }
-.methodology-and-checklists__about,
-.methodology-and-checklists__about-second {
+.methodology-and-checklists__about, .methodology-and-checklists__about-second {
   margin: 0 auto 22px;
   font: 400 14px/18px "Noto Serif", sans-serif;
   letter-spacing: 0.04em;
@@ -242,8 +237,7 @@
   .methodology-and-checklists__title {
     font: 400 60px/86px "Noto Serif", sans-serif;
   }
-  .methodology-and-checklists__about,
-  .methodology-and-checklists__about-second {
+  .methodology-and-checklists__about, .methodology-and-checklists__about-second {
     font: 400 22px/30px "Noto Serif", sans-serif;
   }
 }
@@ -251,4 +245,4 @@
   .methodology-and-checklists .d-md-block {
     display: none;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

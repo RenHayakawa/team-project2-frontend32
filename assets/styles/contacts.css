@@ -163,14 +163,14 @@
 }
 .methodology-and-checklists__card__title {
   margin: 0 0 12px;
-  font: 700 12px/16px "Garamond", sans-serif;
+  font: 700 18px/24px "Garamond", sans-serif;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #161202;
 }
 .methodology-and-checklists__card__subtitle {
   margin: 0 0 12px;
-  font: 700 18px/24px "Eudoxus Sans", sans-serif;
+  font: 700 18px/24px "Garamond", sans-serif;
   color: #181945;
 }
 .methodology-and-checklists__card__subtitle-main {
@@ -179,14 +179,14 @@
 .methodology-and-checklists__card__text {
   margin: 0 0 36px;
   font: 500 16px/22px "Eudoxus Sans", sans-serif;
-  color: #c5c1c1;
+  color: #181945;
 }
 .methodology-and-checklists__card__list {
   font: 500 16px/22px "Eudoxus Sans", sans-serif;
   list-style-type: none;
   padding: 0;
   margin: 0 0 10px;
-  color: #c5c1c1;
+  color: #181945;
 }
 .methodology-and-checklists__card__list > li {
   margin-bottom: 4px;
@@ -195,13 +195,15 @@
   margin: auto auto 0;
   background-color: #405a69;
   color: #ffffff;
-  padding: 20px 0;
+  padding: 10px 10px;
   border-radius: 15px;
   max-width: 250px;
   width: 100%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  font: 600 18px/26px "Garamond", sans-serif;
+  font: normal 400 16px/144.52% "EB Garamond", serif;
 }
 .methodology-and-checklists__card__button:hover {
   box-shadow: 0 3px 10px 2px #30444f;
