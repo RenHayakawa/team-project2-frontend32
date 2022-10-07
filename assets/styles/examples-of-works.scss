@@ -7,7 +7,6 @@
   align-items: center;
   background-color: $colorblue_1;
   padding: 50px 0px 30px;
-  overflow-x: hidden;
 }
 
 .examples-wrapper__title,
@@ -19,21 +18,25 @@
 }
 
 .examples-wrapper__title {
+  padding: 35px 0px 10px;
+  margin: -25px;
   @extend %block2-head-mob;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .examples-subtitle {
-  margin: 5px;
+  padding: 10px;
   @extend %block2-1-head-mob;
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .examples {
-  width: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
   &__text-slide {
-    font: 400 20px/24px "Noto Serif", sans-serif;
+    font: 400 16px/22px "Noto Serif", sans-serif;
   }
 
   &__img-slide-4_direction {
@@ -45,17 +48,39 @@
   }
 }
 
+.examples p {
+  margin-bottom: 0;
+}
+
+.carousel-caption {
+  z-index: 0;
+}
+
+.carousel-indicators {
+  z-index: 1;
+}
+
 @media screen and (min-width: 768px) {
+  .examples-wrapper {
+    padding-bottom: 40px;
+  }
+
   .examples-wrapper__title {
-    font-size: 35px;
+    font-size: 25px;
+    margin-bottom: -50px;
+    padding-top: 60px;
   }
 
   .examples-subtitle {
-    font-size: 20px;
+    font-size: 13px;
   }
 
   .examples__text-slide {
-    font-size: 50px;
+    font-size: 30px;
     line-height: 50px;
+  }
+
+  .examples {
+    width: 70%;
   }
 }
