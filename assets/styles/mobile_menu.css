@@ -63,13 +63,13 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 130px 100px 30px 100px;
+    padding: 130px 100px 60px 100px;
     background-color: #f0eeea;
   }
   .about__text-and-photo {
     display: flex;
     flex-wrap: nowrap;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   .about__wrapper {
     padding-right: 90px;
@@ -183,6 +183,7 @@
     align-items: center;
     gap: 37px;
     width: 100%;
+    margin-bottom: 30px;
   }
   .methodology-and-checklists__card {
     display: flex;
@@ -245,7 +246,7 @@
   }
   .methodology-and-checklists .methodology-and-checklists__wrapper {
     margin: 0 auto;
-    padding: 130px 30px 40px;
+    padding: 110px 30px 40px;
   }
   .methodology-and-checklists__info-content {
     max-width: 1000px;
@@ -261,7 +262,7 @@
     word-break: break-word;
   }
   .methodology-and-checklists__about, .methodology-and-checklists__about-second {
-    margin: 0 auto 22px;
+    margin: 0 auto 25px;
     font: 400 14px/18px "Noto Serif", sans-serif;
     letter-spacing: 0.04em;
     color: #ffffff;
@@ -289,7 +290,7 @@
     display: none;
   }
   .methodology-and-checklists .methodology-and-checklists__wrapper {
-    padding: 80px 30px 40px;
+    padding: 70px 30px 40px;
   }
 }
 @media screen and (max-width: 830px) {
