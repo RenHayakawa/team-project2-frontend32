@@ -6,8 +6,7 @@
   color: #131108;
 }
 
-.about__title,
-.block1-test--head {
+.about__title, .block1-test--head {
   font-family: Noto Serif;
   font-style: normal;
   font-size: 40px;
@@ -17,8 +16,7 @@
   word-break: normal;
 }
 
-.about__text,
-.block1-test--text {
+.about__text, .block1-test--text {
   font-family: Noto Serif;
   font-style: normal;
   font-size: 20px;
@@ -53,8 +51,7 @@
 .about__text {
   margin-bottom: 40px;
 }
-.about__text_part1,
-.about__text_part2 {
+.about__text_part1, .about__text_part2 {
   margin-bottom: 35px;
 }
 
@@ -80,15 +77,7 @@
     flex-direction: column;
     padding-top: 130px;
     flex-direction: column;
-    padding-top: 130px;
-    flex-direction: column;
     align-items: center;
-  }
-  .about__text-and-photo {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 30px;
   }
   .about__text-and-photo {
     flex-direction: column;
@@ -101,7 +90,7 @@
     width: 100%;
   }
   .about__title,
-  .about__text {
+.about__text {
     text-align: center;
   }
   .about__text {
@@ -115,8 +104,7 @@
     justify-content: flex-start;
     padding: 60px 0 30px 3px;
     height: 600px;
-    background: url(/assets/images/Irina/Photo_mobile_background.png) no-repeat
-      center center;
+    background: url(/assets/images/Irina/Photo_mobile_background.png) no-repeat center center;
     background-size: cover;
   }
   .about__text-and-photo {
@@ -142,9 +130,7 @@
     color: #ffffff;
     text-align: center;
   }
-  .about__text_part1,
-  .about__text_part2,
-  .about__text_part3 {
+  .about__text_part1, .about__text_part2, .about__text_part3 {
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -183,7 +169,7 @@
   width: 100%;
   margin-bottom: 18px;
 }
-.methodology-and-checklists__card .methodology-and-checklists__card__title {
+.methodology-and-checklists__card__title {
   margin: 0 0 12px;
   font: 700 18px/24px "Garamond", sans-serif;
   letter-spacing: 0.08em;
@@ -248,8 +234,7 @@
   color: #ffffff;
   word-break: break-word;
 }
-.methodology-and-checklists__about,
-.methodology-and-checklists__about-second {
+.methodology-and-checklists__about, .methodology-and-checklists__about-second {
   margin: 0 auto 25px;
   font: 400 14px/18px "Noto Serif", sans-serif;
   letter-spacing: 0.04em;
@@ -265,8 +250,7 @@
   .methodology-and-checklists__card {
     align-self: stretch;
   }
-  .methodology-and-checklists__about,
-  .methodology-and-checklists__about-second {
+  .methodology-and-checklists__about, .methodology-and-checklists__about-second {
     font: 400 22px/30px "Noto Serif", sans-serif;
   }
   .methodology-and-checklists .methodology-and-checklists__title {
@@ -280,4 +264,4 @@
   .methodology-and-checklists .methodology-and-checklists__wrapper {
     padding: 70px 30px 40px;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
