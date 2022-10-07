@@ -274,13 +274,13 @@ $tablet: 768px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    padding: 130px 100px 30px 100px;
+    padding: 130px 100px 60px 100px;
     background-color: $colorbrownblock;
 
     &__text-and-photo {
         display: flex;
         flex-wrap: nowrap;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 
     &__wrapper {
@@ -427,6 +427,7 @@ $tablet: 768px;
         align-items: center;
         gap: 37px;
         width: 100%;
+        margin-bottom: 30px;
     }
 
     &__card {
@@ -500,7 +501,7 @@ $tablet: 768px;
 
     .methodology-and-checklists__wrapper {
         margin: 0 auto;
-        padding: 130px 30px 40px;
+        padding: 110px 30px 40px;
     }
 
     &__info-content {
@@ -520,7 +521,7 @@ $tablet: 768px;
 
     &__about,
     &__about-second {
-        margin: 0 auto 22px;
+        margin: 0 auto 25px;
         font: 400 14px/18px "Noto Serif", sans-serif;
         letter-spacing: 0.04em;
         color: $white;
@@ -554,7 +555,7 @@ $tablet: 768px;
         }
 
         .methodology-and-checklists__wrapper {
-            padding: 80px 30px 40px;
+            padding: 70px 30px 40px;
         }
     }
 }

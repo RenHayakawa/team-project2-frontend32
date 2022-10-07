@@ -21,6 +21,12 @@ h2 {
     width: 40%;
 }
 
+
+.examples-work__intro_pic:hover {
+    transition: filter 0.5s linear;
+    filter: blur(1px) opacity(60%) drop-shadow(4px 4px 4px black);
+}
+
 .examples-work__intro {
     text-align: center;
 }
