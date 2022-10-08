@@ -446,45 +446,45 @@ $tablet: 768px;
 
         &__title {
             margin: 0 0 12px;
-            font: 700 18px/24px "Garamond", sans-serif;
+            font: 700 16px/18px "Garamond", sans-serif;
             letter-spacing: 0.08em;
             text-transform: uppercase;
             color: $colorbrowntext_3;
         }
 
-        &__subtitle {
+        .methodology-and-checklists__card__subtitle {
             margin: 0 0 12px;
-            font: 700 18px/24px "Garamond", sans-serif;
-            color: $blue-dark;
+            font: 700 22px/24px "Garamond", sans-serif;
+            color: $colorblue_1;
 
             &-main {
                 margin-bottom: 15px;
             }
         }
 
-        &__text {
-            margin: 0 0 36px;
+        .methodology-and-checklists__card__text {
+            margin: 0 0 15px;
             font: 500 16px/22px "Eudoxus Sans", sans-serif;
-            color: $blue-dark;
+            color: gray;
         }
 
-        &__list {
+        .methodology-and-checklists__card__list {
             font: 500 16px/22px "Eudoxus Sans", sans-serif;
             list-style-type: none;
             padding: 0;
             margin: 0 0 10px;
-            color: $blue-dark;
+            color: gray;
 
             &>li {
-                margin-bottom: 4px;
+                margin-bottom: 12px;
             }
         }
 
-        &__button {
+        .methodology-and-checklists__card__button {
             margin: auto auto 0;
             background-color: $colorblue_1;
             color: $white;
-            padding: 10px 10px;
+            padding: 10px;
             border-radius: 15px;
             max-width: 250px;
             width: 100%;

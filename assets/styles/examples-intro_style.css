@@ -6,7 +6,8 @@
   color: #131108;
 }
 
-.about__title, .block1-test--head {
+.about__title,
+.block1-test--head {
   font-family: Noto Serif;
   font-style: normal;
   font-size: 40px;
@@ -16,7 +17,8 @@
   word-break: normal;
 }
 
-.about__text, .block1-test--text {
+.about__text,
+.block1-test--text {
   font-family: Noto Serif;
   font-style: normal;
   font-size: 20px;
@@ -60,7 +62,8 @@
 .about__text {
   margin-bottom: 40px;
 }
-.about__text_part1, .about__text_part2 {
+.about__text_part1,
+.about__text_part2 {
   margin-bottom: 35px;
 }
 
@@ -99,7 +102,7 @@
     width: 100%;
   }
   .about__title,
-.about__text {
+  .about__text {
     text-align: center;
   }
   .about__text {
@@ -113,7 +116,8 @@
     justify-content: flex-start;
     padding: 60px 0 30px 3px;
     height: 600px;
-    background: url(/assets/images/Irina/Photo_mobile_background.png) no-repeat center center;
+    background: url(/assets/images/Irina/Photo_mobile_background.png) no-repeat
+      center center;
     background-size: cover;
   }
   .about__text-and-photo {
@@ -139,7 +143,9 @@
     color: #ffffff;
     text-align: center;
   }
-  .about__text_part1, .about__text_part2, .about__text_part3 {
+  .about__text_part1,
+  .about__text_part2,
+  .about__text_part3 {
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -180,39 +186,40 @@
 }
 .methodology-and-checklists__card .methodology-and-checklists__card__title {
   margin: 0 0 12px;
-  font: 700 18px/24px "Garamond", sans-serif;
+  font: 700 16px/18px "Garamond", sans-serif;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #161202;
 }
-.methodology-and-checklists__card__subtitle {
+.methodology-and-checklists__card .methodology-and-checklists__card__subtitle {
   margin: 0 0 12px;
-  font: 700 18px/24px "Garamond", sans-serif;
-  color: #181945;
+  font: 700 22px/24px "Garamond", sans-serif;
+  color: #405a69;
 }
-.methodology-and-checklists__card__subtitle-main {
+.methodology-and-checklists__card
+  .methodology-and-checklists__card__subtitle-main {
   margin-bottom: 15px;
 }
-.methodology-and-checklists__card__text {
-  margin: 0 0 36px;
+.methodology-and-checklists__card .methodology-and-checklists__card__text {
+  margin: 0 0 15px;
   font: 500 16px/22px "Eudoxus Sans", sans-serif;
-  color: #181945;
+  color: gray;
 }
-.methodology-and-checklists__card__list {
+.methodology-and-checklists__card .methodology-and-checklists__card__list {
   font: 500 16px/22px "Eudoxus Sans", sans-serif;
   list-style-type: none;
   padding: 0;
   margin: 0 0 10px;
-  color: #181945;
+  color: gray;
 }
-.methodology-and-checklists__card__list > li {
-  margin-bottom: 4px;
+.methodology-and-checklists__card .methodology-and-checklists__card__list > li {
+  margin-bottom: 12px;
 }
-.methodology-and-checklists__card__button {
+.methodology-and-checklists__card .methodology-and-checklists__card__button {
   margin: auto auto 0;
   background-color: #405a69;
   color: #ffffff;
-  padding: 10px 10px;
+  padding: 10px;
   border-radius: 15px;
   max-width: 250px;
   width: 100%;
@@ -222,7 +229,8 @@
   text-align: center;
   font: normal 400 16px/144.52% "EB Garamond", serif;
 }
-.methodology-and-checklists__card__button:hover {
+.methodology-and-checklists__card
+  .methodology-and-checklists__card__button:hover {
   box-shadow: 0 3px 10px 2px #30444f;
   transition: box-shadow 0.2s ease-out;
 }
@@ -243,7 +251,8 @@
   color: #ffffff;
   word-break: break-word;
 }
-.methodology-and-checklists__about, .methodology-and-checklists__about-second {
+.methodology-and-checklists__about,
+.methodology-and-checklists__about-second {
   margin: 0 auto 25px;
   font: 400 14px/18px "Noto Serif", sans-serif;
   letter-spacing: 0.04em;
@@ -259,7 +268,8 @@
   .methodology-and-checklists__card {
     align-self: stretch;
   }
-  .methodology-and-checklists__about, .methodology-and-checklists__about-second {
+  .methodology-and-checklists__about,
+  .methodology-and-checklists__about-second {
     font: 400 22px/30px "Noto Serif", sans-serif;
   }
   .methodology-and-checklists .methodology-and-checklists__title {
@@ -323,7 +333,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   /* animation */
   transition: all 1s;
 }
@@ -360,4 +370,4 @@ h2 {
     font: 400 40px/86px "Noto Serif", sans-serif;
     padding: 30px 0;
   }
-}/*# sourceMappingURL=examples-intro_style.css.map */
+} /*# sourceMappingURL=examples-intro_style.css.map */
